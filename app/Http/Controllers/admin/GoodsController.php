@@ -4,7 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Admin\Model\Cgoods;
+use App\Http\Model\Admin\Cgoods;
 class GoodsController extends Controller
 {
     public function index(Request $request){

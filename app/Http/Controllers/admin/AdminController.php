@@ -4,8 +4,8 @@ namespace App\Http\Controllers\admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Admin\Model\Goods;
-use App\Http\Index\Model\User;
+use App\Http\Model\Admin\Goods;
+use App\Http\Model\Index\User;
 use DB;
 class AdminController extends Controller
 {

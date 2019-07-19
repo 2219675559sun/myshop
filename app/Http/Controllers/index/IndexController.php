@@ -5,10 +5,10 @@ namespace App\Http\Controllers\index;
 use App\Http\Controllers\PayController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Index\Model\User;
-use App\Http\Admin\Model\Goods;
-use App\Http\Index\Model\Cart;
-use App\Http\Index\Model\Order;
+use App\Http\Model\Index\User;
+use App\Http\Model\Admin\Goods;
+use App\Http\Model\Index\Cart;
+use App\Http\Model\Index\Order;
 
 use DB;
 class IndexController extends Controller
@@ -106,7 +106,7 @@ class IndexController extends Controller
             return redirect('index/log');die;
         }
         $id=$request->all();
-        $car=Cart::where('goods_id',$id)->count();
+        $car=Cart::where(['goods_id'=>$id['id']])->count();
 //        dd($car);
         if($car>=1){
             echo '该商品已加入购物车';die;

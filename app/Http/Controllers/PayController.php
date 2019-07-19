@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Http\Index\Model\OrderDetail;
+use App\Http\Model\Index\OrderDetail;
 use Illuminate\Http\Request;
-use App\Http\Index\Model\Cart;
-use App\Http\Index\Model\Order;
+use App\Http\Model\Index\Cart;
+use App\Http\Model\Index\Order;
 use DB;
 use Pay;
 class PayController extends Controller
