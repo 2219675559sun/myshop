@@ -236,7 +236,7 @@ class PayController extends Controller
                     'state'=>2,
                 ];
                 $order=$this->order->where('oid',$oid)->update($info);//修改支付状态
-                
+
             }
         }
         
