@@ -2,6 +2,7 @@
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1  maximum-scale=1 user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
@@ -18,7 +19,6 @@
     <link rel="stylesheet" href="{{asset('mstore/css/fakeLoader.css')}}">
     <link rel="stylesheet" href="{{asset('mstore/css/animate.css')}}">
     <link rel="stylesheet" href="{{asset('mstore/css/style.css')}}">
-    
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
    
 </head>
@@ -41,12 +41,16 @@
         <ul id="slide-out-right" class="side-nav side-nav-panel collapsible">
             <li class="profil">
                 <img src="img/profile.jpg" alt="">
-                <h2>John Doe</h2>
+                <h2>@if(empty($value))未登录 @else {{$value}} @endif</h2>
             </li>
             <li><a href="setting.html"><i class="fa fa-cog"></i>Settings</a></li>
             <li><a href="about-us.html"><i class="fa fa-user"></i>About Us</a></li>
             <li><a href="contact.html"><i class="fa fa-envelope-o"></i>Contact Us</a></li>
-            <li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
+        @if(empty($value))
+            <li><a href="{{url('index/log')}}"><i class="fa fa-sign-in"></i>登录</a></li>
+        @else
+                <li><a href="{{url('index/sessionout')}}"><i class="fa fa-sign-in"></i>退出</a></li>
+       @endif
             <li><a href="register.html"><i class="fa fa-user-plus"></i>Register</a></li>
         </ul>
     </div>
@@ -174,7 +178,6 @@
                                 <div class="icon">
                                     <i class="fa fa-hourglass-half"></i>
                                 </div>
-                                404
                             </div>
                         </a>
                     </div>
@@ -401,4 +404,4 @@
 </html>
 
 @section('script')
-$show
+@show

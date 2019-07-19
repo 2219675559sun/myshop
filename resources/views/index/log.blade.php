@@ -1,4 +1,4 @@
-@extends('admin.layout.conmmen')
+@extends('index.layout.conmmen')
 
 @section('title', '登录')
 
@@ -16,7 +16,7 @@
             </div>
             <div class="login">
                 <div class="row">
-                    <form class="col s12" action="{{url('admin/login_do')}}">
+                    <form class="col s12" action="{{url('index/login_do')}}">
                     	@csrf
                         <div class="input-field">
                             <input type="text" class="validate" name="name" placeholder="用户名" required>

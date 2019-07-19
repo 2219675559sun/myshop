@@ -1,4 +1,4 @@
-@extends('admin/layout/conmmen')
+@extends('index.layout.conmmen')
 @section('title', '注册')
 <body>
 	@section('body')
@@ -12,7 +12,7 @@
 			</div>
 			<div class="register">
 				<div class="row">
-					<form class="col s12" action="{{url('admin/logadd_do')}}">
+					<form class="col s12" action="{{url('index/logadd_do')}}">
 					
 
 @if ($errors->any())
