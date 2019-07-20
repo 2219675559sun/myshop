@@ -1,6 +1,6 @@
 <?php
 
-namespace App\http\Index\Model;
+namespace App\http\Model\Index;
 
 use Illuminate\Database\Eloquent\Model;
 
