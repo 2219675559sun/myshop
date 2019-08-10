@@ -66,6 +66,24 @@
                         <dd><a href="{{url('admin/userList')}}">用户列表</a></dd>
                     </dl>
                 </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">货物管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="{{url('goods/add')}}">货物添加</a></dd>
+                        <dd><a href="{{url('goods/index')}}">货物列表</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">微信管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="{{url('weixin/moban')}}">模板列表</a></dd>
+                        <dd><a href="{{url('weixin/index')}}">粉丝列表</a></dd>
+                        <dd><a href="{{url('weixin/uploadSource')}}">添加素材</a></dd>
+                        <dd><a href="{{url('weixin/source_list')}}">永久素材列表</a></dd>
+                        <dd><a href="{{url('weixin/add_tag')}}">添加标签</a></dd>
+                        <dd><a href="{{url('weixin/tag_index')}}">标签列表</a></dd>
+                    </dl>
+                </li>
                 <li class="layui-nav-item"><a href="">云市场</a></li>
                 <li class="layui-nav-item"><a href="">发布商品</a></li>
             </ul>

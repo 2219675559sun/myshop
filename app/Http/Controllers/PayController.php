@@ -41,6 +41,8 @@ class PayController extends Controller
 //        dd($total);
         return view('index.order',['cart'=>$cart,'total'=>$total]);
     }
+
+
     public function pay_order(Request $request){
         $oid=$request->all();
         if(empty($oid)){
@@ -214,6 +216,7 @@ class PayController extends Controller
      */
     public function aliNotify()
     {
+
         $data = json_encode($_POST);
         $log_str = '>>>> '.date('Y-m-d H:i:s') . $data . "<<<<\n\n";
         //记录日志

@@ -42,6 +42,7 @@ class StudentController extends Controller
    	$redis=new \Redis;
    	$redis->connect('127.0.0.1','6379');
    $num = $redis->incr('num');
+
    	// echo '当前共访问'.$num.'次';
    	//搜索条件
    	$name=$request->all();

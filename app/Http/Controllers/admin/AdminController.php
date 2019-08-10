@@ -16,16 +16,12 @@ class AdminController extends Controller
     }
     public function login_do(Request $request){
         $data=$request->all();
-//        dd($data);
         $where=[
             ['name','=',$data['name']],
             ['password','=',$data['password']],
-            ['user','=',0,'|',2],
-
         ];
         $res=DB::table('user')->where($where)->first();
-//        dd($res);die;
-        if($res){
+        if($res->user==0||$res->user==2){
             $request->session()->put('name', $data['name']);
             return redirect('admin/index');
         }else{
@@ -191,8 +187,8 @@ class AdminController extends Controller
         if($res){
             return redirect('admin/userList');
         }else{
-            return redirect('admin/userList');
         }
+        return redirect('admin/userList');
     }
 
 //    退出sessionout

@@ -1,6 +1,6 @@
 @extends('admin.layout.conmmen')
 @section('body')
-    <form action="{{url('admin/index')}}">
+    <form action="{{url('atrain12306')}}">
         <input type="text" name="goods_name" value="{{$name}}" class="layui-input-block" style="width:300px;" placeholder='请输入商品名称关键字'>
         <input type="submit" value="搜索" class="layui-btn layui-btn-radius layui-btn-normal">
     </form>

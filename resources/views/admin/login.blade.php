@@ -44,6 +44,7 @@
                             </div>
                         </div>
                     </div>
+                    <div style="padding:30px;"><a href="{{url('weixin/log')}}" class="button button-block bg-main text-big input-big" >微信登录</a></div>
                     <div style="padding:30px;"><input type="submit" class="button button-block bg-main text-big input-big" value="登录"></div>
                 </div>
             </form>
