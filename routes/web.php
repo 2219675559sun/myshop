@@ -251,4 +251,5 @@ Route::get('/weixin/tag_push', 'ceshi\WeixinController@tag_push');
 Route::post('/weixin/tag_push_do', 'ceshi\WeixinController@tag_push_do');
 });
 
+Route::get('/wechat/event', 'ceshi\WechatController@event');
 

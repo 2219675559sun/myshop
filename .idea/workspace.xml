@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef31c90-3d7f-4b25-a90b-6f548916f95d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="141">
               <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding>
                 <element signature="e#172#497#0#PHP" />
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6776">
-              <caret line="251" column="3" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
+            <state relative-caret-position="256">
+              <caret line="253" column="57" selection-start-line="253" selection-start-column="57" selection-end-line="253" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -127,7 +127,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,9 +180,9 @@
         <option value="$PROJECT_DIR$/resources/views/ceshi/weixin/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/weixin/source_list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/conmmen.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -472,12 +472,12 @@
       <workItem from="1565224172545" duration="26706000" />
       <workItem from="1565310842008" duration="19046000" />
       <workItem from="1565399516838" duration="6951000" />
-      <workItem from="1565570058572" duration="1718000" />
+      <workItem from="1565570058572" duration="2077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417558000" />
+    <option name="totallyTimeSpent" value="417917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,7 +492,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.1575067" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.1575067" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2124665" />
       <window_info id="Favorites" order="2" sideWeight="0.5021008" side_tool="true" weight="0.18498659" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,7 +505,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49782798" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49869677" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49869677" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.32577905" />
       <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49731904" weight="0.32577905" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -868,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6776">
-          <caret line="251" column="3" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Tools/Wechat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1148">
@@ -904,11 +897,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
+        <state relative-caret-position="141">
           <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding>
             <element signature="e#172#497#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="253" column="57" selection-start-line="253" selection-start-column="57" selection-end-line="253" selection-end-column="57" />
         </state>
       </provider>
     </entry>
