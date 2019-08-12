@@ -40,4 +40,9 @@ class WechatController extends Controller
         }
         return $access_token;
     }
+//    接口配置
+    public function event(){
+        echo $_GET['echostr'];
+        die;
+    }
 }

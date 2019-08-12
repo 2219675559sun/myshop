@@ -496,6 +496,7 @@ class WeixinController extends Controller
 
 
     }
+    //获取token
     public function access_token(){
         $redis=new \Redis;
         $redis->connect('127.0.0.1','6379');
