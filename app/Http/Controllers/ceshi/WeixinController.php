@@ -42,28 +42,31 @@ class WeixinController extends Controller
     public function user($openid,$access_token){
         $url="https://api.weixin.qq.com/sns/userinfo?access_token={$access_token}&openid={$openid}&lang=zh_CN";
         $data=file_get_contents($url);
-        $arr=json_decode($data);
+        $arr=json_decode($data,1);
         $res=DB::connection('mysqls')->table('wechat_user')->where('openid',$openid)->first();
         if(!empty($res)){
             $res=DB::connection('mysqls')->table('weixin_user')->where('id',$res->uid)->first();
-            $this->request->session()->put('name',$res->name);
+            $this->request->session()->put('name',$arr['nickname']);
+            $this->request->session()->put('openid',$openid);
             $this->template($openid);
             header('location:moban');
 //            return redirect('admin/index');
         }else{
             DB::connection('mysqls')->beginTransaction();
             $user=DB::connection('mysqls')->table('weixin_user')->insertGetId([
-                'name'=>$arr->nickname,
+                'name'=>$arr['nickname'],
                 'pwd'=>'',
-                'add_time'=>time(),
+                'reg_time'=>0,
             ]);
             $weixin=DB::connection('mysqls')->table('wechat_user')->insert([
                 'uid'=>$user,
                 'openid'=>$openid,
+                'add_time'=>time(),
             ]);
             DB::connection('mysqls')->commit();
             $res=DB::connection('mysqls')->table('weixin_user')->where('id',$res['uid'])->first();
-            $this->request->session()->put('name',$res->name);
+            $this->request->session()->put('name',$arr['nickname']);
+            $this->request->session()->put('openid',$openid);
             $this->template($openid);
             header('location:moban');
 //            return redirect('admin/index');
@@ -496,6 +499,68 @@ class WeixinController extends Controller
 
 
     }
+//个人信息
+    public function one_list(){
+        $res=DB::connection('mysqls')->table('weixin_user')
+            ->join('wechat_user', 'wechat_user.uid', '=', 'weixin_user.id')
+            ->select('weixin_user.*', 'wechat_user.openid', 'wechat_user.add_time','wechat_user.uid')
+            ->get();
+        $arr=json_decode($res,1);
+        return view('ceshi.weixin.one_list',['arr'=>$arr]);
+    }
+    //获取永久二维码
+    public function qrCode(Request $request){
+        $id=$request->all();
+//        查询数据库
+        $weixin_user= DB::connection('mysqls')->table('weixin_user')->where('id',$id['id'])->first();
+
+        if($weixin_user->qrcode_url == '0'){
+
+        $url="https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token={$this->access_token()}";
+        $data=[
+            "action_name"=> "QR_LIMIT_SCENE",
+                            "action_info"=> ["scene"=> ["scene_id"=> $id['id']]],
+        ];
+        $res=$this->wechat->post($url,json_encode($data));
+       $arr=json_decode($res,1);
+       $code="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=".$arr['ticket']."";
+       if($code){
+           $user= DB::connection('mysqls')->table('weixin_user')->where('id',$id['id'])->update([
+               'qrcode_url'=>$code,
+               'agent_code'=>$id['id'],
+               'reg_time'=>time(),
+           ]);
+       }
+        }else{
+            $code=$weixin_user->qrcode_url;
+        }
+       header('location:'.$code);
+    }
+    //二维码下载
+//    public function image(){
+////        $file=time().rand(1000,9999).'.'.'image';
+//        $path = 'weixin/qr_code';
+////        dd($path);
+//        if(!file_exists($path))
+//        {
+//            if(mkdir($path,0777,true))
+//            {
+//                $img ="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQG18DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyamo1d2ctYjhmcjExMDAwMGcwM00AAgSoX1FdAwQAAAAA" ;
+//                ob_clean();
+//                ob_start();
+//                readfile($img);		//读取图片
+//                $img = ob_get_contents();	//得到缓冲区中保存的图片
+//                ob_end_clean();		//清空缓冲区
+//                $fp = fopen($path.time().rand(1000,9999).'.'.'image','w');	//写入图片s
+//                if(fwrite($fp,$img))
+//                {
+//                    fclose($fp);
+//                    echo "图片保存成功";
+//                }
+//            }
+//        }
+//
+//    }
     //获取token
     public function access_token(){
         $redis=new \Redis;

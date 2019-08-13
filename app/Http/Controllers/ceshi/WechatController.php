@@ -4,7 +4,7 @@ namespace App\Http\Controllers\ceshi;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use DB;
 class WechatController extends Controller
 {
     //单个用户
@@ -40,9 +40,54 @@ class WechatController extends Controller
         }
         return $access_token;
     }
-//    接口配置
+//    自动回复
     public function event(){
-        echo $_GET['echostr'];
-        die;
+        //    接口配置
+//        echo $_GET['echostr'];
+//        die;
+
+        //$this->checkSignature();
+//        $data = file_get_contents("php://input");
+//        //解析XML
+//        $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
+//        $xml = (array)$xml; //转化成数组
+//        $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
+//        file_put_contents(storage_path('logs/wx_event.log'),$log_str,FILE_APPEND);
+//        $message = '你好,有什么需要帮助的!';
+//        $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+//        echo $xml_str;
+//------------------------------------------------------------------------------------------------------------------
+        $data = file_get_contents("php://input");
+        //解析XML
+        $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
+        $xml = (array)$xml; //转化成数组
+        $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
+//        写入log日志
+        file_put_contents(storage_path('logs/wx_event.log'),$log_str,FILE_APPEND);
+        if($xml['MsgType'] == 'event'){
+            if($xml['Event'] == 'subscribe'){ //关注
+                if(isset($xml['EventKey'])){
+                    //拉新操作
+                    $agent_code = explode('_',$xml['EventKey'])[1];
+                    $agent_info = DB::connection('mysqls')->table('wechat_user')->where(['uid'=>$agent_code,'openid'=>$xml['FromUserName']])->first();
+                    if(empty($agent_info)){
+                        DB::connection('mysqls')->table('wechat_user')->insert([
+                            'uid'=>$agent_code,
+                            'openid'=>$xml['FromUserName'],
+                            'add_time'=>time()
+                        ]);
+                    }
+                }
+                $message = '余生还长 请多多指教!';
+                $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+                echo $xml_str;
+            }
+        }elseif($xml['MsgType'] == 'text'){
+            $message = '你好,有什么需要帮助的!';
+            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+            echo $xml_str;
+        }
+
     }
+
 }

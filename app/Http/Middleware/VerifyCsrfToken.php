@@ -21,5 +21,6 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         'leave/info',
         'notify_url',
+        'wechat/event',
     ];
 }

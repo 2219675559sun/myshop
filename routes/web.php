@@ -250,6 +250,11 @@ Route::get('/weixin/get_tag', 'ceshi\WeixinController@get_tag');
 Route::get('/weixin/tag_push', 'ceshi\WeixinController@tag_push');
 Route::post('/weixin/tag_push_do', 'ceshi\WeixinController@tag_push_do');
 });
-
-Route::get('/wechat/event', 'ceshi\WechatController@event');
-
+//公众号自动回复消息
+Route::post('/wechat/event', 'ceshi\WechatController@event');
+//获取永久二维码
+Route::get('/weixin/qrCode', 'ceshi\WeixinController@qrCode');
+//个人信息
+Route::get('/weixin/one_list', 'ceshi\WeixinController@one_list');
+//图片下载
+Route::get('/weixin/image', 'ceshi\WeixinController@image');
