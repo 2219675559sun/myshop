@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef31c90-3d7f-4b25-a90b-6f548916f95d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2019-08-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel-2019-08-13.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/wx_event.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/wx_event.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -105,22 +106,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/logs/wx_event.log">
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/ceshi/WechatController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="231" column="20" selection-start-line="230" selection-start-column="19" selection-end-line="231" selection-end-column="20" />
-            </state>
+            <state relative-caret-position="-2085" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-08-13.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="378" column="75" selection-start-line="378" selection-start-column="75" selection-end-line="378" selection-end-column="75" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/storage/logs/wx_event.log">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -166,13 +161,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/ceshi/real/index/come.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/real/index/enter.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/real/index/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/real/index/charge.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/real.php" />
@@ -222,6 +215,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php" />
         <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/ceshi/WechatController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php" />
+        <option value="$PROJECT_DIR$/storage/logs/laravel-2019-08-13.log" />
+        <option value="$PROJECT_DIR$/storage/logs/wx_event.log" />
       </list>
     </option>
   </component>
@@ -321,7 +316,7 @@
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="380" />
     <option name="y" value="40" />
     <option name="width" value="1515" />
@@ -506,12 +501,12 @@
       <workItem from="1565310842008" duration="19046000" />
       <workItem from="1565399516838" duration="6951000" />
       <workItem from="1565570058572" duration="14030000" />
-      <workItem from="1565656256605" duration="18513000" />
+      <workItem from="1565656256605" duration="19156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448383000" />
+    <option name="totallyTimeSpent" value="449026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,8 +519,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.15951742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.15951742" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2124665" />
       <window_info id="Favorites" order="2" sideWeight="0.5021008" side_tool="true" weight="0.18498659" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -545,7 +541,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32908848" />
-      <window_info active="true" anchor="right" id="Remote Host" order="4" visible="true" weight="0.26876676" />
+      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.26876676" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.15147454" />
@@ -891,24 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/wx_event.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="231" column="20" selection-start-line="230" selection-start-column="19" selection-end-line="231" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-08-13.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="378" column="75" selection-start-line="378" selection-start-column="75" selection-end-line="378" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -969,6 +951,12 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-08-13.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/wx_event.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
