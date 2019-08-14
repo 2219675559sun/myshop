@@ -257,4 +257,4 @@ Route::get('/weixin/qrCode', 'ceshi\WeixinController@qrCode');
 //个人信息
 Route::get('/weixin/one_list', 'ceshi\WeixinController@one_list');
 //图片下载
-Route::get('/weixin/image', 'ceshi\WeixinController@image');
+Route::get('/weixin/download', 'ceshi\WeixinController@download');

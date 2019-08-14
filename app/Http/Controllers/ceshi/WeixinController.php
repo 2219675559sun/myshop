@@ -502,8 +502,8 @@ class WeixinController extends Controller
 //个人信息
     public function one_list(){
         $res=DB::connection('mysqls')->table('weixin_user')
-            ->join('wechat_user', 'wechat_user.uid', '=', 'weixin_user.id')
-            ->select('weixin_user.*', 'wechat_user.openid', 'wechat_user.add_time','wechat_user.uid')
+//            ->join('wechat_user', 'wechat_user.uid', '=', 'weixin_user.id')
+//            ->select('weixin_user.*', 'wechat_user.openid', 'wechat_user.add_time','wechat_user.uid')
             ->get();
         $arr=json_decode($res,1);
         return view('ceshi.weixin.one_list',['arr'=>$arr]);
@@ -537,30 +537,32 @@ class WeixinController extends Controller
        header('location:'.$code);
     }
     //二维码下载
-//    public function image(){
-////        $file=time().rand(1000,9999).'.'.'image';
-//        $path = 'weixin/qr_code';
-////        dd($path);
-//        if(!file_exists($path))
-//        {
-//            if(mkdir($path,0777,true))
-//            {
-//                $img ="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQG18DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyamo1d2ctYjhmcjExMDAwMGcwM00AAgSoX1FdAwQAAAAA" ;
-//                ob_clean();
-//                ob_start();
-//                readfile($img);		//读取图片
-//                $img = ob_get_contents();	//得到缓冲区中保存的图片
-//                ob_end_clean();		//清空缓冲区
-//                $fp = fopen($path.time().rand(1000,9999).'.'.'image','w');	//写入图片s
-//                if(fwrite($fp,$img))
-//                {
-//                    fclose($fp);
-//                    echo "图片保存成功";
-//                }
-//            }
-//        }
-//
-//    }
+    public function download(Request $request){
+        $id=$request->all()['id'];
+        $res=DB::connection('mysqls')->table('weixin_user')->where('id',$id)->first();
+        if($res->qrcode_url == '0'){
+            echo '请先生成二维码'; die;
+        }else{
+            $client=new Client();
+            $url=$client->get($res->qrcode_url);
+            $h = $url->getHeaders();
+            $ext = explode('/',$h['Content-Type'][0])[1];
+            $file_name = time().rand(1000,9999).'.'.$ext;
+            //存入数据库
+            if($res->agent_code == '0'){
+                //保存图片
+                $path = 'weixin/qrcode/'.$file_name;
+                $re = Storage::disk('local')->put($path, $url->getBody());
+                $agent_code = env('APP_URL').'/storage/'.$path;
+
+                $res=DB::connection('mysqls')->table('weixin_user')->where('id',$id)->update([
+                    'agent_code'=>$agent_code,
+                ]);
+            }
+            return redirect('weixin/one_list');
+        }
+
+    }
     //获取token
     public function access_token(){
         $redis=new \Redis;
