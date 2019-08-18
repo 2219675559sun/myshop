@@ -65,32 +65,26 @@ class WechatController extends Controller
 //        写入log日志
         file_put_contents(storage_path('logs/wx_event.log'),$log_str,FILE_APPEND);
         if($xml['MsgType'] == 'event'){
-            if($xml['Event'] == 'subscribe') { //关注
-                if (isset($xml['EventKey'])) {
+            if($xml['Event'] == 'subscribe'){ //关注
+                if(isset($xml['EventKey'])){
                     //拉新操作
-                    $agent_code = explode('_', $xml['EventKey'])[1];
-                    $agent_info = DB::connection('mysqls')->table('wechat_user')->where(['uid' => $agent_code, 'openid' => $xml['FromUserName']])->first();
-                    $openid = DB::connection('mysqls')->table('wechat_user')->where('openid', $xml['FromUserName'])->first();
-                        if (empty($agent_info)) {
-                            if (!empty($openid)) {
-                                $message = '你已关注过了,欢迎再次回来!';
-                                $xml_str = '<xml><ToUserName><![CDATA[' . $xml['FromUserName'] . ']]></ToUserName><FromUserName><![CDATA[' . $xml['ToUserName'] . ']]></FromUserName><CreateTime>' . time() . '</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[' . $message . ']]></Content></xml>';
-                                echo $xml_str; die;
-                            }
-                            DB::connection('mysqls')->table('wechat_user')->insert([
-                                'uid' => $agent_code,
-                                'openid' => $xml['FromUserName'],
-                                'add_time' => time()
-                            ]);
+                    $agent_code = explode('_',$xml['EventKey'])[1];
+                    $agent_info = DB::connection('mysqls')->table('wechat_user')->where(['uid'=>$agent_code,'openid'=>$xml['FromUserName']])->first();
+                    if(empty($agent_info)){
+                        DB::connection('mysqls')->table('wechat_user')->insert([
+                            'uid'=>$agent_code,
+                            'openid'=>$xml['FromUserName'],
+                            'add_time'=>time()
+                        ]);
                     }
-                    $message = '余生还长 请多多指教!';
-                    $xml_str = '<xml><ToUserName><![CDATA[' . $xml['FromUserName'] . ']]></ToUserName><FromUserName><![CDATA[' . $xml['ToUserName'] . ']]></FromUserName><CreateTime>' . time() . '</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[' . $message . ']]></Content></xml>';
-                    echo $xml_str;
-                } else {
-                    $message = '余生还长 请多多指教!';
-                    $xml_str = '<xml><ToUserName><![CDATA[' . $xml['FromUserName'] . ']]></ToUserName><FromUserName><![CDATA[' . $xml['ToUserName'] . ']]></FromUserName><CreateTime>' . time() . '</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[' . $message . ']]></Content></xml>';
-                    echo $xml_str;
                 }
+                $message = '余生还长 请多多指教!';
+                $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+                echo $xml_str;
+            }else{
+                $message = '余生还长 请多多指教!';
+                $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+                echo $xml_str;
             }
         }elseif($xml['MsgType'] == 'text'){
             $message = '你好,有什么需要帮助的!';

@@ -79,4 +79,23 @@ class Wechat
 
     }
 
+    //获取token
+    public function access_token(){
+        $redis=new \Redis;
+        $redis->connect('127.0.0.1','6379');
+        $access_token_key="access_token";
+        $access_token='';
+        if($redis->exists($access_token_key)){
+            $access_token=$redis->get($access_token_key);
+        }else{
+            $data=file_get_contents("https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".env('WECHAT_APPID')."&secret=".env('WECHAT_APPSECRET')."");
+            $access=json_decode($data,1);
+            $access_token=$access['access_token'];
+            $expires_time=$access['expires_in'];
+            $redis->set($access_token_key,$access_token,$expires_time);
+        }
+
+        return $access_token;
+    }
+
 }

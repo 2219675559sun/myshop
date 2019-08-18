@@ -258,3 +258,27 @@ Route::get('/weixin/qrCode', 'ceshi\WeixinController@qrCode');
 Route::get('/weixin/one_list', 'ceshi\WeixinController@one_list');
 //图片下载
 Route::get('/weixin/download', 'ceshi\WeixinController@download');
+//自定义菜单创建
+Route::get('/menu/add_menu', 'ceshi\MenuController@add_menu');
+Route::post('/menu/add_menu_do', 'ceshi\MenuController@add_menu_do');
+//执行接口
+Route::get('/menu/menu', 'ceshi\MenuController@menu');
+//菜单查询
+Route::get('/menu/menu_list', 'ceshi\MenuController@menu_list');
+//删除菜单
+Route::get('/menu/delete_menu', 'ceshi\MenuController@delete_menu');
+
+//公众号 表白小功能
+Route::get('/confession/add_menu', 'ceshi\wechat\ConfessionController@add_menu');
+Route::post('/confession/add_menu_do', 'ceshi\wechat\ConfessionController@add_menu_do');
+//刷新列表
+Route::get('/confession/menu', 'ceshi\wechat\ConfessionController@menu');
+//登录
+Route::get('/confession/log', 'ceshi\wechat\ConfessionController@log');
+//获取code
+Route::get('/confession/code', 'ceshi\wechat\ConfessionController@code');
+//添加表白消息
+Route::get('/confession/add_confession', 'ceshi\wechat\ConfessionController@add_confession');
+Route::post('/confession/confession_do', 'ceshi\wechat\ConfessionController@confession_do');
+//成功提示信息
+Route::get('/confession/confession_index', 'ceshi\wechat\ConfessionController@confession_index');

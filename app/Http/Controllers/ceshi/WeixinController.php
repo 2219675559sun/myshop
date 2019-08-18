@@ -24,7 +24,7 @@ class WeixinController extends Controller
     public function log(){
         $redirect_uri='http://www.myshop.com/weixin/code';
         $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=".env('WECHAT_APPID')."&redirect_uri=".urlencode($redirect_uri)."&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
-   header('location:'.$url);
+        header('location:'.$url);
     }
     //获取code
     public function code(Request $request){
@@ -40,7 +40,7 @@ class WeixinController extends Controller
 
     }
     public function user($openid,$access_token){
-        $url="https://api.weixin.qq.com/sns/userinfo?access_token={$access_token}&openid={$openid}&lang=zh_CN";
+        $url="https://api.weixin.qq.com/sns/userinfo?access_token={$this->wechat->access_token()}&openid={$openid}&lang=zh_CN";
         $data=file_get_contents($url);
         $arr=json_decode($data,1);
         $res=DB::connection('mysqls')->table('wechat_user')->where('openid',$openid)->first();
