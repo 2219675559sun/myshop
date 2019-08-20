@@ -66,6 +66,7 @@ class Kernel extends HttpKernel
         'real'=> \App\Http\Middleware\real::class,
         'leave'=> \App\Http\Middleware\leave::class,
         'admin'=> \App\Http\Middleware\Admin::class,
+        'confession'=> \App\Http\Middleware\Confession::class,
     ];
 
     /**

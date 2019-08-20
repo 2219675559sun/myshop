@@ -89,7 +89,7 @@ class ConfessionController extends Controller
     //添加表白内容
     public function log(){
         //执行登录
-        $redirect_uri="http://www.myshop.com/confession/code";
+        $redirect_uri=env('redirect_uri').'/confession/code';
         $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=".env('WECHAT_APPID')."&redirect_uri={$redirect_uri}&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
 //        header('location:'.$url);
         return redirect($url);
@@ -109,6 +109,7 @@ class ConfessionController extends Controller
         $user=file_get_contents($url);
        $data=json_decode($user,1);
         $this->request->session()->put('name',$data['nickname']);
+        $this->request->session()->put('openid',$openid);
         $res=DB::connection('mysqls')->table('wechat_user')->where('openid',$openid)->first();
         if(empty($res)){
             DB::connection('mysqls')->beginTransaction();
@@ -129,7 +130,8 @@ class ConfessionController extends Controller
     }
     public function add_confession(){
             $url="https://api.weixin.qq.com/cgi-bin/user/get?access_token=".$this->wechat->access_token()."&next_openid=";
-            $data=json_decode(file_get_contents($url),1);
+            $data=file_get_contents($url);
+            $data=json_decode($data,1);
             $openid=$data['data']['openid'];
             foreach($openid as $k=>$v){
                 $list=DB::connection('mysqls')->table('wechat_openid')->where('openid',$v)->first();
@@ -154,6 +156,13 @@ class ConfessionController extends Controller
     }
     public function confession_do(Request $request){
         $arr=$request->all();
+        //表白内容入库
+        $list=DB::connection('mysqls')->table('confession_list')->insert([
+            'openid'=>$arr['openid'],
+            'center'=>$arr['conect'],
+            'add_time'=>time(),
+        ]);
+        //推送表白内容
        $url="https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={$this->wechat->access_token()}";
             $data=[
                     "touser"=>$arr['openid'],
@@ -182,5 +191,10 @@ class ConfessionController extends Controller
     }
     public function confession_index(){
         echo "如果你也喜欢他(她)，那就去找他(她)吧";
+    }
+    //我的表白
+    public function list(){
+        $data=DB::connection('mysqls')->table('confession_list')->where('openid',session('openid'))->get();
+        return view('ceshi.wechat.confession.list',['data'=>$data]);
     }
 }

@@ -268,13 +268,17 @@ Route::get('/menu/menu_list', 'ceshi\MenuController@menu_list');
 //删除菜单
 Route::get('/menu/delete_menu', 'ceshi\MenuController@delete_menu');
 
+
 //公众号 表白小功能
+//登录
+Route::get('/confession/log', 'ceshi\wechat\ConfessionController@log');
+
+Route::group(['middleware' => ['confession']], function () {
+    //
 Route::get('/confession/add_menu', 'ceshi\wechat\ConfessionController@add_menu');
 Route::post('/confession/add_menu_do', 'ceshi\wechat\ConfessionController@add_menu_do');
 //刷新列表
 Route::get('/confession/menu', 'ceshi\wechat\ConfessionController@menu');
-//登录
-Route::get('/confession/log', 'ceshi\wechat\ConfessionController@log');
 //获取code
 Route::get('/confession/code', 'ceshi\wechat\ConfessionController@code');
 //添加表白消息
@@ -282,3 +286,18 @@ Route::get('/confession/add_confession', 'ceshi\wechat\ConfessionController@add_
 Route::post('/confession/confession_do', 'ceshi\wechat\ConfessionController@confession_do');
 //成功提示信息
 Route::get('/confession/confession_index', 'ceshi\wechat\ConfessionController@confession_index');
+//我的表白
+Route::get('/confession/list', 'ceshi\wechat\ConfessionController@list');
+});
+//-----------------------------------------------------------------------------------------------------------
+//微信留言
+Route::get('/liuyan/log', 'ceshi\wechat\LiuyanController@log');
+//获取code
+Route::get('/liuyan/code', 'ceshi\wechat\LiuyanController@code');
+//粉丝列表页
+Route::get('/liuyan/index', 'ceshi\wechat\LiuyanController@index');
+//留言列表
+Route::get('/liuyan/liuyan', 'ceshi\wechat\LiuyanController@liuyan');
+Route::post('/liuyan/liuyan_do', 'ceshi\wechat\LiuyanController@liuyan_do');
+
+Route::get('/liuyan/list', 'ceshi\wechat\LiuyanController@list');
