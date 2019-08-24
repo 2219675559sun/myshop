@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2019-08-07.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,20 +66,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="130">
               <caret line="15" column="24" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#53#81#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/ceshi/wechat/ConfessionController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -95,11 +87,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="334">
+              <caret line="197" column="61" selection-start-line="197" selection-start-column="61" selection-end-line="197" selection-end-column="61" />
+              <folding>
+                <element signature="e#53#81#0#PHP" expanded="true" />
+                <element signature="e#3947#5069#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,8 +163,6 @@
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/liuyan/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/liuyan/list.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/LiuyanController.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/.env" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/confession/list.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Confession.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
@@ -178,7 +172,6 @@
         <option value="$PROJECT_DIR$/config/wechat.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Tools/Wechat.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/confession/log.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/redPacket/log.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/RedPacket.php" />
@@ -187,6 +180,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPrice.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php" />
       </list>
     </option>
   </component>
@@ -296,7 +292,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="25" />
     <option name="y" value="90" />
     <option name="width" value="1515" />
@@ -314,6 +310,41 @@
             <path>
               <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="myshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
@@ -451,12 +482,12 @@
       <workItem from="1566349231445" duration="7209000" />
       <workItem from="1566454437007" duration="15992000" />
       <workItem from="1566522802713" duration="9844000" />
-      <workItem from="1566613612570" duration="2030000" />
+      <workItem from="1566613612570" duration="4115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="618675000" />
+    <option name="totallyTimeSpent" value="620760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +502,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.1883378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.1883378" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2124665" />
       <window_info id="Favorites" order="2" sideWeight="0.5021008" side_tool="true" weight="0.18498659" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -779,16 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="e#3947#5069#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/wechat.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -840,17 +861,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="305" column="71" selection-start-line="305" selection-start-column="71" selection-end-line="305" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/wechat/confession/confession_index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#53#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="30" lean-forward="true" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -864,19 +902,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/wechat/confession/confession_index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="334">
+          <caret line="197" column="61" selection-start-line="197" selection-start-column="61" selection-end-line="197" selection-end-column="61" />
           <folding>
             <element signature="e#53#81#0#PHP" expanded="true" />
+            <element signature="e#3947#5069#0#PHP" />
           </folding>
         </state>
       </provider>

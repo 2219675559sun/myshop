@@ -194,8 +194,8 @@ class ConfessionController extends Controller
         header('location:confession_index');
     }
     public function confession_index(){
-        $data=DB::connection('mysqls')->table('confession_list')->where('openid',session('openid'))->get();
-        return view('ceshi.wechat.confession.list',['data'=>$data]);
+
+        return view('ceshi.wechat.confession.confession_index');
     }
     //我的表白
     public function list(){
