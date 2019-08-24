@@ -64,7 +64,7 @@ class WechatController extends Controller
         $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
 //        写入log日志
         file_put_contents(storage_path('logs/wx_event.log'),$log_str,FILE_APPEND);
-        if($xml['MsgType'] == 'event'){
+        if($xml['MsgType'] == 'event'){//关注事件
             if($xml['Event'] == 'subscribe'){ //关注
                 if(isset($xml['EventKey'])){
                     //拉新操作
@@ -87,8 +87,30 @@ class WechatController extends Controller
                 echo $xml_str;
             }
         }elseif($xml['MsgType'] == 'text'){
-            $message = '你好,有什么需要帮助的!';
-            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+//            $message = '你好,有什么需要帮助的!';
+//            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+//            echo $xml_str;
+            //全国油价
+            //用户输入的查询内容
+            $conent=$xml['Content'];
+            $name=substr($conent,-6);
+            $message='';
+            if($name !='油价'){
+                $message='请输入正确格式，如:北京油价'; die;
+            }
+            //用户输入的查询的城市
+            $local=substr($conent,0,-6);
+            $url="http://www.vizhiguo.com/qil/call";
+            $json=file_get_contents($url);
+            $data=json_decode($json,1);
+            $city=$data['result'];
+            foreach($city as $k=>$v){
+                if($v['city']==$local){
+                    $message=$v['city'].'最新油价'."<br>".'b90:'.$v['b90'].'￥'."<br>".'b93:'.$v['b93'].'￥'."<br>".'b97:'.$v['b97'].'￥'."<br>".'b0:'.$v['b0'].'￥'."<br>".'92h:'.$v['92h'].'￥'."<br>".'95h:'.$v['95h'].'￥'."<br>".'98h:'.$v['98h'].'￥'."<br>".'0h:'.$v['0h'].'￥';
+                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+
+                }
+            }
             echo $xml_str;
         }
 
