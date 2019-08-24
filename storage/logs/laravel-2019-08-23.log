@@ -1,0 +1,1709 @@
+[2019-08-23 16:36:29] local.ERROR: Class App\Http\Controllers\ceshi\wechat\OilPriceController does not exist {"exception":"[object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController does not exist at C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:790)
+[stacktrace]
+#0 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(790): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(667): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(615): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(767): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(233): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#5 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(833): Illuminate\\Routing\\Route->getController()
+#6 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(794): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(693): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(673): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\wnmp\\www\\myshop\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#32 C:\\wnmp\\www\\myshop\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#33 {main}
+"} 
+[2019-08-23 16:37:27] local.ERROR: Class App\Http\Controllers\ceshi\wechat\OilPriceController does not exist {"exception":"[object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController does not exist at C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:790)
+[stacktrace]
+#0 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(790): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(667): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(615): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(767): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(233): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#5 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(833): Illuminate\\Routing\\Route->getController()
+#6 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(794): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(693): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(673): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\wnmp\\www\\myshop\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#32 C:\\wnmp\\www\\myshop\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#33 {main}
+"} 
+[2019-08-23 20:20:31] local.ERROR: Class App\Http\Controllers\ceshi\wechat\OilPriceController does not exist {"exception":"[object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController does not exist at C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:790)
+[stacktrace]
+#0 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(790): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(667): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(615): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(767): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(233): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#5 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(833): Illuminate\\Routing\\Route->getController()
+#6 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(794): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(693): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(673): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\wnmp\\www\\myshop\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#32 C:\\wnmp\\www\\myshop\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#33 {main}
+"} 
+[2019-08-23 20:30:09] local.ERROR: Class App\Http\Controllers\ceshi\wechat\OilPriceController does not exist {"exception":"[object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController does not exist at C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:790)
+[stacktrace]
+#0 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(790): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(667): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(615): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(767): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(233): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#5 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(833): Illuminate\\Routing\\Route->getController()
+#6 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(794): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(693): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(673): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\wnmp\\www\\myshop\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#32 C:\\wnmp\\www\\myshop\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#33 {main}
+"} 
+[2019-08-23 20:31:10] local.ERROR: file_get_contents(): php_network_getaddresses: getaddrinfo failed: ��֪������������  {"exception":"[object] (ErrorException(code: 0): file_get_contents(): php_network_getaddresses: getaddrinfo failed: ��֪������������  at C:\\wnmp\\www\\myshop\\app\\Http\\Controllers\\ceshi\\wechat\\OilPriceController.php:13)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\wnmp\\\\www\\\\mys...', 13, Array)
+#1 C:\\wnmp\\www\\myshop\\app\\Http\\Controllers\\ceshi\\wechat\\OilPriceController.php(13): file_get_contents('https://www.juh...')
+#2 [internal function]: App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController->qil_peice()
+#3 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#4 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('qil_peice', Array)
+#5 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController), 'qil_peice')
+#6 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(176): Illuminate\\Routing\\Route->runController()
+#7 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(680): Illuminate\\Routing\\Route->run()
+#8 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(682): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\wnmp\\www\\myshop\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 C:\\wnmp\\www\\myshop\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+"} 
+[2019-08-23 20:31:39] local.ERROR: file_get_contents({
+  &quot;resultcode&quot;: &quot;200&quot;,
+  &quot;reason&quot;: &quot;查询成功!&quot;,
+  &quot;result&quot;: [
+    {
+      &quot;city&quot;: &quot;北京&quot;,
+      &quot;b90&quot;: &quot;-&quot;,/*89(90)号*/
+      &quot;b93&quot;: &quot;7.99&quot;,/*92(93)号*/
+      &quot;b97&quot;: &quot;8.50&quot;,/*95(97)号*/
+      &quot;b0&quot;: &quot;7.47&quot;,/*0号*/
+      &quot;92h&quot;: &quot;7.99&quot;,/*建议取值*/
+      &quot;95h&quot;: &quot;8.50&quot;,/*建议取值*/
+      &quot;98h&quot;: &quot;7.47&quot;,/*建议取值*/
+      &quot;0h&quot;: &quot;7.47&quot;/*建议取值*/
+    },
+    {
+      &quot;city&quot;: &quot;天津&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.56&quot;,
+      &quot;b0&quot;: &quot;5.64&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.56&quot;,
+      &quot;98h&quot;: &quot;5.64&quot;,
+      &quot;0h&quot;: &quot;5.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;内蒙古&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.52&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.52&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;辽宁&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.96&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;5.86&quot;,
+      &quot;92h&quot;: &quot;7.96&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;5.86&quot;,
+      &quot;0h&quot;: &quot;5.86&quot;
+    },
+    {
+      &quot;city&quot;: &quot;吉林&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.82&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;6.10&quot;,
+      &quot;92h&quot;: &quot;7.82&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;6.10&quot;,
+      &quot;0h&quot;: &quot;6.10&quot;
+    },
+    {
+      &quot;city&quot;: &quot;黑龙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.84&quot;,
+      &quot;b97&quot;: &quot;8.36&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.84&quot;,
+      &quot;95h&quot;: &quot;8.36&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;上海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.62&quot;,
+      &quot;0h&quot;: &quot;6.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江苏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.66&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.66&quot;,
+      &quot;0h&quot;: &quot;6.66&quot;
+    },
+    {
+      &quot;city&quot;: &quot;浙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.49&quot;,
+      &quot;b97&quot;: &quot;8.32&quot;,
+      &quot;b0&quot;: &quot;5.99&quot;,
+      &quot;92h&quot;: &quot;7.49&quot;,
+      &quot;95h&quot;: &quot;8.32&quot;,
+      &quot;98h&quot;: &quot;5.99&quot;,
+      &quot;0h&quot;: &quot;5.99&quot;
+    },
+    {
+      &quot;city&quot;: &quot;安徽&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;7.44&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;7.44&quot;,
+      &quot;0h&quot;: &quot;7.44&quot;
+    },
+    {
+      &quot;city&quot;: &quot;福建&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.48&quot;,
+      &quot;b0&quot;: &quot;5.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.48&quot;,
+      &quot;98h&quot;: &quot;5.62&quot;,
+      &quot;0h&quot;: &quot;5.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.53&quot;,
+      &quot;b0&quot;: &quot;7.38&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.53&quot;,
+      &quot;98h&quot;: &quot;7.38&quot;,
+      &quot;0h&quot;: &quot;7.38&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.97&quot;,
+      &quot;b97&quot;: &quot;8.55&quot;,
+      &quot;b0&quot;: &quot;5.54&quot;,
+      &quot;92h&quot;: &quot;7.97&quot;,
+      &quot;95h&quot;: &quot;8.55&quot;,
+      &quot;98h&quot;: &quot;5.54&quot;,
+      &quot;0h&quot;: &quot;5.54&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.99&quot;,
+      &quot;b97&quot;: &quot;8.54&quot;,
+      &quot;b0&quot;: &quot;5.68&quot;,
+      &quot;92h&quot;: &quot;7.99&quot;,
+      &quot;95h&quot;: &quot;8.54&quot;,
+      &quot;98h&quot;: &quot;5.68&quot;,
+      &quot;0h&quot;: &quot;5.68&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.86&quot;,
+      &quot;b97&quot;: &quot;8.42&quot;,
+      &quot;b0&quot;: &quot;5.40&quot;,
+      &quot;92h&quot;: &quot;7.86&quot;,
+      &quot;95h&quot;: &quot;8.42&quot;,
+      &quot;98h&quot;: &quot;5.40&quot;,
+      &quot;0h&quot;: &quot;5.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.80&quot;,
+      &quot;b97&quot;: &quot;8.29&quot;,
+      &quot;b0&quot;: &quot;6.64&quot;,
+      &quot;92h&quot;: &quot;7.80&quot;,
+      &quot;95h&quot;: &quot;8.29&quot;,
+      &quot;98h&quot;: &quot;6.64&quot;,
+      &quot;0h&quot;: &quot;6.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.67&quot;,
+      &quot;b0&quot;: &quot;7.43&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.67&quot;,
+      &quot;98h&quot;: &quot;7.43&quot;,
+      &quot;0h&quot;: &quot;7.43&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.04&quot;,
+      &quot;b97&quot;: &quot;8.69&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.04&quot;,
+      &quot;95h&quot;: &quot;8.69&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;海南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;9.10&quot;,
+      &quot;b97&quot;: &quot;9.67&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;9.10&quot;,
+      &quot;95h&quot;: &quot;9.67&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;重庆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.05&quot;,
+      &quot;b97&quot;: &quot;8.50&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;8.05&quot;,
+      &quot;95h&quot;: &quot;8.50&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;四川&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.62&quot;,
+      &quot;b0&quot;: &quot;6.12&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.62&quot;,
+      &quot;98h&quot;: &quot;6.12&quot;,
+      &quot;0h&quot;: &quot;6.12&quot;
+    },
+    {
+      &quot;city&quot;: &quot;贵州&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.11&quot;,
+      &quot;b97&quot;: &quot;8.57&quot;,
+      &quot;b0&quot;: &quot;6.94&quot;,
+      &quot;92h&quot;: &quot;8.11&quot;,
+      &quot;95h&quot;: &quot;8.57&quot;,
+      &quot;98h&quot;: &quot;6.94&quot;,
+      &quot;0h&quot;: &quot;6.94&quot;
+    },
+    {
+      &quot;city&quot;: &quot;云南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.13&quot;,
+      &quot;b97&quot;: &quot;8.73&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.13&quot;,
+      &quot;95h&quot;: &quot;8.73&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;西藏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.86&quot;,
+      &quot;b97&quot;: &quot;9.37&quot;,
+      &quot;b0&quot;: &quot;7.23&quot;,
+      &quot;92h&quot;: &quot;8.86&quot;,
+      &quot;95h&quot;: &quot;9.37&quot;,
+      &quot;98h&quot;: &quot;7.23&quot;,
+      &quot;0h&quot;: &quot;7.23&quot;
+    },
+    {
+      &quot;city&quot;: &quot;陕西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.31&quot;,
+      &quot;b0&quot;: &quot;5.67&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.31&quot;,
+      &quot;98h&quot;: &quot;5.67&quot;,
+      &quot;0h&quot;: &quot;5.67&quot;
+    },
+    {
+      &quot;city&quot;: &quot;甘肃&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.41&quot;,
+      &quot;b0&quot;: &quot;5.51&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.41&quot;,
+      &quot;98h&quot;: &quot;5.51&quot;,
+      &quot;0h&quot;: &quot;5.51&quot;
+    },
+    {
+      &quot;city&quot;: &quot;青海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;5.85&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;5.85&quot;,
+      &quot;0h&quot;: &quot;5.85&quot;
+    },
+    {
+      &quot;city&quot;: &quot;宁夏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.88&quot;,
+      &quot;b97&quot;: &quot;8.33&quot;,
+      &quot;b0&quot;: &quot;5.56&quot;,
+      &quot;92h&quot;: &quot;7.88&quot;,
+      &quot;95h&quot;: &quot;8.33&quot;,
+      &quot;98h&quot;: &quot;5.56&quot;,
+      &quot;0h&quot;: &quot;5.56&quot;
+    },
+    {
+      &quot;city&quot;: &quot;新疆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.90&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;6.06&quot;,
+      &quot;92h&quot;: &quot;7.90&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;6.06&quot;,
+      &quot;0h&quot;: &quot;6.06&quot;
+    }
+  ],
+  &quot;error_code&quot;: 0
+}): failed to open stream: Invalid argument {"exception":"[object] (ErrorException(code: 0): file_get_contents({
+  &quot;resultcode&quot;: &quot;200&quot;,
+  &quot;reason&quot;: &quot;查询成功!&quot;,
+  &quot;result&quot;: [
+    {
+      &quot;city&quot;: &quot;北京&quot;,
+      &quot;b90&quot;: &quot;-&quot;,/*89(90)号*/
+      &quot;b93&quot;: &quot;7.99&quot;,/*92(93)号*/
+      &quot;b97&quot;: &quot;8.50&quot;,/*95(97)号*/
+      &quot;b0&quot;: &quot;7.47&quot;,/*0号*/
+      &quot;92h&quot;: &quot;7.99&quot;,/*建议取值*/
+      &quot;95h&quot;: &quot;8.50&quot;,/*建议取值*/
+      &quot;98h&quot;: &quot;7.47&quot;,/*建议取值*/
+      &quot;0h&quot;: &quot;7.47&quot;/*建议取值*/
+    },
+    {
+      &quot;city&quot;: &quot;天津&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.56&quot;,
+      &quot;b0&quot;: &quot;5.64&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.56&quot;,
+      &quot;98h&quot;: &quot;5.64&quot;,
+      &quot;0h&quot;: &quot;5.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;内蒙古&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.52&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.52&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;辽宁&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.96&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;5.86&quot;,
+      &quot;92h&quot;: &quot;7.96&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;5.86&quot;,
+      &quot;0h&quot;: &quot;5.86&quot;
+    },
+    {
+      &quot;city&quot;: &quot;吉林&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.82&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;6.10&quot;,
+      &quot;92h&quot;: &quot;7.82&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;6.10&quot;,
+      &quot;0h&quot;: &quot;6.10&quot;
+    },
+    {
+      &quot;city&quot;: &quot;黑龙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.84&quot;,
+      &quot;b97&quot;: &quot;8.36&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.84&quot;,
+      &quot;95h&quot;: &quot;8.36&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;上海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.62&quot;,
+      &quot;0h&quot;: &quot;6.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江苏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.66&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.66&quot;,
+      &quot;0h&quot;: &quot;6.66&quot;
+    },
+    {
+      &quot;city&quot;: &quot;浙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.49&quot;,
+      &quot;b97&quot;: &quot;8.32&quot;,
+      &quot;b0&quot;: &quot;5.99&quot;,
+      &quot;92h&quot;: &quot;7.49&quot;,
+      &quot;95h&quot;: &quot;8.32&quot;,
+      &quot;98h&quot;: &quot;5.99&quot;,
+      &quot;0h&quot;: &quot;5.99&quot;
+    },
+    {
+      &quot;city&quot;: &quot;安徽&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;7.44&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;7.44&quot;,
+      &quot;0h&quot;: &quot;7.44&quot;
+    },
+    {
+      &quot;city&quot;: &quot;福建&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.48&quot;,
+      &quot;b0&quot;: &quot;5.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.48&quot;,
+      &quot;98h&quot;: &quot;5.62&quot;,
+      &quot;0h&quot;: &quot;5.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.53&quot;,
+      &quot;b0&quot;: &quot;7.38&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.53&quot;,
+      &quot;98h&quot;: &quot;7.38&quot;,
+      &quot;0h&quot;: &quot;7.38&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.97&quot;,
+      &quot;b97&quot;: &quot;8.55&quot;,
+      &quot;b0&quot;: &quot;5.54&quot;,
+      &quot;92h&quot;: &quot;7.97&quot;,
+      &quot;95h&quot;: &quot;8.55&quot;,
+      &quot;98h&quot;: &quot;5.54&quot;,
+      &quot;0h&quot;: &quot;5.54&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.99&quot;,
+      &quot;b97&quot;: &quot;8.54&quot;,
+      &quot;b0&quot;: &quot;5.68&quot;,
+      &quot;92h&quot;: &quot;7.99&quot;,
+      &quot;95h&quot;: &quot;8.54&quot;,
+      &quot;98h&quot;: &quot;5.68&quot;,
+      &quot;0h&quot;: &quot;5.68&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.86&quot;,
+      &quot;b97&quot;: &quot;8.42&quot;,
+      &quot;b0&quot;: &quot;5.40&quot;,
+      &quot;92h&quot;: &quot;7.86&quot;,
+      &quot;95h&quot;: &quot;8.42&quot;,
+      &quot;98h&quot;: &quot;5.40&quot;,
+      &quot;0h&quot;: &quot;5.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.80&quot;,
+      &quot;b97&quot;: &quot;8.29&quot;,
+      &quot;b0&quot;: &quot;6.64&quot;,
+      &quot;92h&quot;: &quot;7.80&quot;,
+      &quot;95h&quot;: &quot;8.29&quot;,
+      &quot;98h&quot;: &quot;6.64&quot;,
+      &quot;0h&quot;: &quot;6.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.67&quot;,
+      &quot;b0&quot;: &quot;7.43&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.67&quot;,
+      &quot;98h&quot;: &quot;7.43&quot;,
+      &quot;0h&quot;: &quot;7.43&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.04&quot;,
+      &quot;b97&quot;: &quot;8.69&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.04&quot;,
+      &quot;95h&quot;: &quot;8.69&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;海南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;9.10&quot;,
+      &quot;b97&quot;: &quot;9.67&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;9.10&quot;,
+      &quot;95h&quot;: &quot;9.67&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;重庆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.05&quot;,
+      &quot;b97&quot;: &quot;8.50&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;8.05&quot;,
+      &quot;95h&quot;: &quot;8.50&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;四川&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.62&quot;,
+      &quot;b0&quot;: &quot;6.12&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.62&quot;,
+      &quot;98h&quot;: &quot;6.12&quot;,
+      &quot;0h&quot;: &quot;6.12&quot;
+    },
+    {
+      &quot;city&quot;: &quot;贵州&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.11&quot;,
+      &quot;b97&quot;: &quot;8.57&quot;,
+      &quot;b0&quot;: &quot;6.94&quot;,
+      &quot;92h&quot;: &quot;8.11&quot;,
+      &quot;95h&quot;: &quot;8.57&quot;,
+      &quot;98h&quot;: &quot;6.94&quot;,
+      &quot;0h&quot;: &quot;6.94&quot;
+    },
+    {
+      &quot;city&quot;: &quot;云南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.13&quot;,
+      &quot;b97&quot;: &quot;8.73&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.13&quot;,
+      &quot;95h&quot;: &quot;8.73&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;西藏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.86&quot;,
+      &quot;b97&quot;: &quot;9.37&quot;,
+      &quot;b0&quot;: &quot;7.23&quot;,
+      &quot;92h&quot;: &quot;8.86&quot;,
+      &quot;95h&quot;: &quot;9.37&quot;,
+      &quot;98h&quot;: &quot;7.23&quot;,
+      &quot;0h&quot;: &quot;7.23&quot;
+    },
+    {
+      &quot;city&quot;: &quot;陕西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.31&quot;,
+      &quot;b0&quot;: &quot;5.67&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.31&quot;,
+      &quot;98h&quot;: &quot;5.67&quot;,
+      &quot;0h&quot;: &quot;5.67&quot;
+    },
+    {
+      &quot;city&quot;: &quot;甘肃&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.41&quot;,
+      &quot;b0&quot;: &quot;5.51&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.41&quot;,
+      &quot;98h&quot;: &quot;5.51&quot;,
+      &quot;0h&quot;: &quot;5.51&quot;
+    },
+    {
+      &quot;city&quot;: &quot;青海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;5.85&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;5.85&quot;,
+      &quot;0h&quot;: &quot;5.85&quot;
+    },
+    {
+      &quot;city&quot;: &quot;宁夏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.88&quot;,
+      &quot;b97&quot;: &quot;8.33&quot;,
+      &quot;b0&quot;: &quot;5.56&quot;,
+      &quot;92h&quot;: &quot;7.88&quot;,
+      &quot;95h&quot;: &quot;8.33&quot;,
+      &quot;98h&quot;: &quot;5.56&quot;,
+      &quot;0h&quot;: &quot;5.56&quot;
+    },
+    {
+      &quot;city&quot;: &quot;新疆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.90&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;6.06&quot;,
+      &quot;92h&quot;: &quot;7.90&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;6.06&quot;,
+      &quot;0h&quot;: &quot;6.06&quot;
+    }
+  ],
+  &quot;error_code&quot;: 0
+}): failed to open stream: Invalid argument at C:\\wnmp\\www\\myshop\\app\\Http\\Controllers\\ceshi\\wechat\\OilPriceController.php:365)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\wnmp\\\\www\\\\mys...', 365, Array)
+#1 C:\\wnmp\\www\\myshop\\app\\Http\\Controllers\\ceshi\\wechat\\OilPriceController.php(365): file_get_contents('{\
+  \"resultcode...')
+#2 [internal function]: App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController->call()
+#3 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#4 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('call', Array)
+#5 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController), 'call')
+#6 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(176): Illuminate\\Routing\\Route->runController()
+#7 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(680): Illuminate\\Routing\\Route->run()
+#8 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(682): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\wnmp\\www\\myshop\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 C:\\wnmp\\www\\myshop\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+"} 
+[2019-08-23 20:32:51] local.ERROR: file_get_contents({
+  &quot;resultcode&quot;: &quot;200&quot;,
+  &quot;reason&quot;: &quot;查询成功!&quot;,
+  &quot;result&quot;: [
+    {
+      &quot;city&quot;: &quot;北京&quot;,
+      &quot;b90&quot;: &quot;-&quot;,/*89(90)号*/
+      &quot;b93&quot;: &quot;7.99&quot;,/*92(93)号*/
+      &quot;b97&quot;: &quot;8.50&quot;,/*95(97)号*/
+      &quot;b0&quot;: &quot;7.47&quot;,/*0号*/
+      &quot;92h&quot;: &quot;7.99&quot;,/*建议取值*/
+      &quot;95h&quot;: &quot;8.50&quot;,/*建议取值*/
+      &quot;98h&quot;: &quot;7.47&quot;,/*建议取值*/
+      &quot;0h&quot;: &quot;7.47&quot;/*建议取值*/
+    },
+    {
+      &quot;city&quot;: &quot;天津&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.56&quot;,
+      &quot;b0&quot;: &quot;5.64&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.56&quot;,
+      &quot;98h&quot;: &quot;5.64&quot;,
+      &quot;0h&quot;: &quot;5.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;内蒙古&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.52&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.52&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;辽宁&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.96&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;5.86&quot;,
+      &quot;92h&quot;: &quot;7.96&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;5.86&quot;,
+      &quot;0h&quot;: &quot;5.86&quot;
+    },
+    {
+      &quot;city&quot;: &quot;吉林&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.82&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;6.10&quot;,
+      &quot;92h&quot;: &quot;7.82&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;6.10&quot;,
+      &quot;0h&quot;: &quot;6.10&quot;
+    },
+    {
+      &quot;city&quot;: &quot;黑龙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.84&quot;,
+      &quot;b97&quot;: &quot;8.36&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.84&quot;,
+      &quot;95h&quot;: &quot;8.36&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;上海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.62&quot;,
+      &quot;0h&quot;: &quot;6.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江苏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.66&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.66&quot;,
+      &quot;0h&quot;: &quot;6.66&quot;
+    },
+    {
+      &quot;city&quot;: &quot;浙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.49&quot;,
+      &quot;b97&quot;: &quot;8.32&quot;,
+      &quot;b0&quot;: &quot;5.99&quot;,
+      &quot;92h&quot;: &quot;7.49&quot;,
+      &quot;95h&quot;: &quot;8.32&quot;,
+      &quot;98h&quot;: &quot;5.99&quot;,
+      &quot;0h&quot;: &quot;5.99&quot;
+    },
+    {
+      &quot;city&quot;: &quot;安徽&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;7.44&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;7.44&quot;,
+      &quot;0h&quot;: &quot;7.44&quot;
+    },
+    {
+      &quot;city&quot;: &quot;福建&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.48&quot;,
+      &quot;b0&quot;: &quot;5.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.48&quot;,
+      &quot;98h&quot;: &quot;5.62&quot;,
+      &quot;0h&quot;: &quot;5.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.53&quot;,
+      &quot;b0&quot;: &quot;7.38&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.53&quot;,
+      &quot;98h&quot;: &quot;7.38&quot;,
+      &quot;0h&quot;: &quot;7.38&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.97&quot;,
+      &quot;b97&quot;: &quot;8.55&quot;,
+      &quot;b0&quot;: &quot;5.54&quot;,
+      &quot;92h&quot;: &quot;7.97&quot;,
+      &quot;95h&quot;: &quot;8.55&quot;,
+      &quot;98h&quot;: &quot;5.54&quot;,
+      &quot;0h&quot;: &quot;5.54&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.99&quot;,
+      &quot;b97&quot;: &quot;8.54&quot;,
+      &quot;b0&quot;: &quot;5.68&quot;,
+      &quot;92h&quot;: &quot;7.99&quot;,
+      &quot;95h&quot;: &quot;8.54&quot;,
+      &quot;98h&quot;: &quot;5.68&quot;,
+      &quot;0h&quot;: &quot;5.68&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.86&quot;,
+      &quot;b97&quot;: &quot;8.42&quot;,
+      &quot;b0&quot;: &quot;5.40&quot;,
+      &quot;92h&quot;: &quot;7.86&quot;,
+      &quot;95h&quot;: &quot;8.42&quot;,
+      &quot;98h&quot;: &quot;5.40&quot;,
+      &quot;0h&quot;: &quot;5.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.80&quot;,
+      &quot;b97&quot;: &quot;8.29&quot;,
+      &quot;b0&quot;: &quot;6.64&quot;,
+      &quot;92h&quot;: &quot;7.80&quot;,
+      &quot;95h&quot;: &quot;8.29&quot;,
+      &quot;98h&quot;: &quot;6.64&quot;,
+      &quot;0h&quot;: &quot;6.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.67&quot;,
+      &quot;b0&quot;: &quot;7.43&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.67&quot;,
+      &quot;98h&quot;: &quot;7.43&quot;,
+      &quot;0h&quot;: &quot;7.43&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.04&quot;,
+      &quot;b97&quot;: &quot;8.69&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.04&quot;,
+      &quot;95h&quot;: &quot;8.69&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;海南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;9.10&quot;,
+      &quot;b97&quot;: &quot;9.67&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;9.10&quot;,
+      &quot;95h&quot;: &quot;9.67&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;重庆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.05&quot;,
+      &quot;b97&quot;: &quot;8.50&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;8.05&quot;,
+      &quot;95h&quot;: &quot;8.50&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;四川&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.62&quot;,
+      &quot;b0&quot;: &quot;6.12&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.62&quot;,
+      &quot;98h&quot;: &quot;6.12&quot;,
+      &quot;0h&quot;: &quot;6.12&quot;
+    },
+    {
+      &quot;city&quot;: &quot;贵州&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.11&quot;,
+      &quot;b97&quot;: &quot;8.57&quot;,
+      &quot;b0&quot;: &quot;6.94&quot;,
+      &quot;92h&quot;: &quot;8.11&quot;,
+      &quot;95h&quot;: &quot;8.57&quot;,
+      &quot;98h&quot;: &quot;6.94&quot;,
+      &quot;0h&quot;: &quot;6.94&quot;
+    },
+    {
+      &quot;city&quot;: &quot;云南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.13&quot;,
+      &quot;b97&quot;: &quot;8.73&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.13&quot;,
+      &quot;95h&quot;: &quot;8.73&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;西藏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.86&quot;,
+      &quot;b97&quot;: &quot;9.37&quot;,
+      &quot;b0&quot;: &quot;7.23&quot;,
+      &quot;92h&quot;: &quot;8.86&quot;,
+      &quot;95h&quot;: &quot;9.37&quot;,
+      &quot;98h&quot;: &quot;7.23&quot;,
+      &quot;0h&quot;: &quot;7.23&quot;
+    },
+    {
+      &quot;city&quot;: &quot;陕西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.31&quot;,
+      &quot;b0&quot;: &quot;5.67&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.31&quot;,
+      &quot;98h&quot;: &quot;5.67&quot;,
+      &quot;0h&quot;: &quot;5.67&quot;
+    },
+    {
+      &quot;city&quot;: &quot;甘肃&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.41&quot;,
+      &quot;b0&quot;: &quot;5.51&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.41&quot;,
+      &quot;98h&quot;: &quot;5.51&quot;,
+      &quot;0h&quot;: &quot;5.51&quot;
+    },
+    {
+      &quot;city&quot;: &quot;青海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;5.85&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;5.85&quot;,
+      &quot;0h&quot;: &quot;5.85&quot;
+    },
+    {
+      &quot;city&quot;: &quot;宁夏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.88&quot;,
+      &quot;b97&quot;: &quot;8.33&quot;,
+      &quot;b0&quot;: &quot;5.56&quot;,
+      &quot;92h&quot;: &quot;7.88&quot;,
+      &quot;95h&quot;: &quot;8.33&quot;,
+      &quot;98h&quot;: &quot;5.56&quot;,
+      &quot;0h&quot;: &quot;5.56&quot;
+    },
+    {
+      &quot;city&quot;: &quot;新疆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.90&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;6.06&quot;,
+      &quot;92h&quot;: &quot;7.90&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;6.06&quot;,
+      &quot;0h&quot;: &quot;6.06&quot;
+    }
+  ],
+  &quot;error_code&quot;: 0
+}): failed to open stream: Invalid argument {"exception":"[object] (ErrorException(code: 0): file_get_contents({
+  &quot;resultcode&quot;: &quot;200&quot;,
+  &quot;reason&quot;: &quot;查询成功!&quot;,
+  &quot;result&quot;: [
+    {
+      &quot;city&quot;: &quot;北京&quot;,
+      &quot;b90&quot;: &quot;-&quot;,/*89(90)号*/
+      &quot;b93&quot;: &quot;7.99&quot;,/*92(93)号*/
+      &quot;b97&quot;: &quot;8.50&quot;,/*95(97)号*/
+      &quot;b0&quot;: &quot;7.47&quot;,/*0号*/
+      &quot;92h&quot;: &quot;7.99&quot;,/*建议取值*/
+      &quot;95h&quot;: &quot;8.50&quot;,/*建议取值*/
+      &quot;98h&quot;: &quot;7.47&quot;,/*建议取值*/
+      &quot;0h&quot;: &quot;7.47&quot;/*建议取值*/
+    },
+    {
+      &quot;city&quot;: &quot;天津&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.98&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;7.40&quot;,
+      &quot;92h&quot;: &quot;7.98&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;7.40&quot;,
+      &quot;0h&quot;: &quot;7.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.56&quot;,
+      &quot;b0&quot;: &quot;5.64&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.56&quot;,
+      &quot;98h&quot;: &quot;5.64&quot;,
+      &quot;0h&quot;: &quot;5.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;内蒙古&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.52&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.52&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;辽宁&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.96&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;5.86&quot;,
+      &quot;92h&quot;: &quot;7.96&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;5.86&quot;,
+      &quot;0h&quot;: &quot;5.86&quot;
+    },
+    {
+      &quot;city&quot;: &quot;吉林&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.82&quot;,
+      &quot;b97&quot;: &quot;8.43&quot;,
+      &quot;b0&quot;: &quot;6.10&quot;,
+      &quot;92h&quot;: &quot;7.82&quot;,
+      &quot;95h&quot;: &quot;8.43&quot;,
+      &quot;98h&quot;: &quot;6.10&quot;,
+      &quot;0h&quot;: &quot;6.10&quot;
+    },
+    {
+      &quot;city&quot;: &quot;黑龙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.84&quot;,
+      &quot;b97&quot;: &quot;8.36&quot;,
+      &quot;b0&quot;: &quot;0.00&quot;,
+      &quot;92h&quot;: &quot;7.84&quot;,
+      &quot;95h&quot;: &quot;8.36&quot;,
+      &quot;98h&quot;: &quot;0.00&quot;,
+      &quot;0h&quot;: &quot;0.00&quot;
+    },
+    {
+      &quot;city&quot;: &quot;上海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.62&quot;,
+      &quot;0h&quot;: &quot;6.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江苏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.46&quot;,
+      &quot;b0&quot;: &quot;6.66&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.46&quot;,
+      &quot;98h&quot;: &quot;6.66&quot;,
+      &quot;0h&quot;: &quot;6.66&quot;
+    },
+    {
+      &quot;city&quot;: &quot;浙江&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.49&quot;,
+      &quot;b97&quot;: &quot;8.32&quot;,
+      &quot;b0&quot;: &quot;5.99&quot;,
+      &quot;92h&quot;: &quot;7.49&quot;,
+      &quot;95h&quot;: &quot;8.32&quot;,
+      &quot;98h&quot;: &quot;5.99&quot;,
+      &quot;0h&quot;: &quot;5.99&quot;
+    },
+    {
+      &quot;city&quot;: &quot;安徽&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.93&quot;,
+      &quot;b97&quot;: &quot;8.49&quot;,
+      &quot;b0&quot;: &quot;7.44&quot;,
+      &quot;92h&quot;: &quot;7.93&quot;,
+      &quot;95h&quot;: &quot;8.49&quot;,
+      &quot;98h&quot;: &quot;7.44&quot;,
+      &quot;0h&quot;: &quot;7.44&quot;
+    },
+    {
+      &quot;city&quot;: &quot;福建&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.95&quot;,
+      &quot;b97&quot;: &quot;8.48&quot;,
+      &quot;b0&quot;: &quot;5.62&quot;,
+      &quot;92h&quot;: &quot;7.95&quot;,
+      &quot;95h&quot;: &quot;8.48&quot;,
+      &quot;98h&quot;: &quot;5.62&quot;,
+      &quot;0h&quot;: &quot;5.62&quot;
+    },
+    {
+      &quot;city&quot;: &quot;江西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.53&quot;,
+      &quot;b0&quot;: &quot;7.38&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.53&quot;,
+      &quot;98h&quot;: &quot;7.38&quot;,
+      &quot;0h&quot;: &quot;7.38&quot;
+    },
+    {
+      &quot;city&quot;: &quot;山东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.97&quot;,
+      &quot;b97&quot;: &quot;8.55&quot;,
+      &quot;b0&quot;: &quot;5.54&quot;,
+      &quot;92h&quot;: &quot;7.97&quot;,
+      &quot;95h&quot;: &quot;8.55&quot;,
+      &quot;98h&quot;: &quot;5.54&quot;,
+      &quot;0h&quot;: &quot;5.54&quot;
+    },
+    {
+      &quot;city&quot;: &quot;河南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.99&quot;,
+      &quot;b97&quot;: &quot;8.54&quot;,
+      &quot;b0&quot;: &quot;5.68&quot;,
+      &quot;92h&quot;: &quot;7.99&quot;,
+      &quot;95h&quot;: &quot;8.54&quot;,
+      &quot;98h&quot;: &quot;5.68&quot;,
+      &quot;0h&quot;: &quot;5.68&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖北&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.86&quot;,
+      &quot;b97&quot;: &quot;8.42&quot;,
+      &quot;b0&quot;: &quot;5.40&quot;,
+      &quot;92h&quot;: &quot;7.86&quot;,
+      &quot;95h&quot;: &quot;8.42&quot;,
+      &quot;98h&quot;: &quot;5.40&quot;,
+      &quot;0h&quot;: &quot;5.40&quot;
+    },
+    {
+      &quot;city&quot;: &quot;湖南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.80&quot;,
+      &quot;b97&quot;: &quot;8.29&quot;,
+      &quot;b0&quot;: &quot;6.64&quot;,
+      &quot;92h&quot;: &quot;7.80&quot;,
+      &quot;95h&quot;: &quot;8.29&quot;,
+      &quot;98h&quot;: &quot;6.64&quot;,
+      &quot;0h&quot;: &quot;6.64&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广东&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.67&quot;,
+      &quot;b0&quot;: &quot;7.43&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.67&quot;,
+      &quot;98h&quot;: &quot;7.43&quot;,
+      &quot;0h&quot;: &quot;7.43&quot;
+    },
+    {
+      &quot;city&quot;: &quot;广西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.04&quot;,
+      &quot;b97&quot;: &quot;8.69&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.04&quot;,
+      &quot;95h&quot;: &quot;8.69&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;海南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;9.10&quot;,
+      &quot;b97&quot;: &quot;9.67&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;9.10&quot;,
+      &quot;95h&quot;: &quot;9.67&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;重庆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.05&quot;,
+      &quot;b97&quot;: &quot;8.50&quot;,
+      &quot;b0&quot;: &quot;7.61&quot;,
+      &quot;92h&quot;: &quot;8.05&quot;,
+      &quot;95h&quot;: &quot;8.50&quot;,
+      &quot;98h&quot;: &quot;7.61&quot;,
+      &quot;0h&quot;: &quot;7.61&quot;
+    },
+    {
+      &quot;city&quot;: &quot;四川&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.00&quot;,
+      &quot;b97&quot;: &quot;8.62&quot;,
+      &quot;b0&quot;: &quot;6.12&quot;,
+      &quot;92h&quot;: &quot;8.00&quot;,
+      &quot;95h&quot;: &quot;8.62&quot;,
+      &quot;98h&quot;: &quot;6.12&quot;,
+      &quot;0h&quot;: &quot;6.12&quot;
+    },
+    {
+      &quot;city&quot;: &quot;贵州&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.11&quot;,
+      &quot;b97&quot;: &quot;8.57&quot;,
+      &quot;b0&quot;: &quot;6.94&quot;,
+      &quot;92h&quot;: &quot;8.11&quot;,
+      &quot;95h&quot;: &quot;8.57&quot;,
+      &quot;98h&quot;: &quot;6.94&quot;,
+      &quot;0h&quot;: &quot;6.94&quot;
+    },
+    {
+      &quot;city&quot;: &quot;云南&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.13&quot;,
+      &quot;b97&quot;: &quot;8.73&quot;,
+      &quot;b0&quot;: &quot;7.49&quot;,
+      &quot;92h&quot;: &quot;8.13&quot;,
+      &quot;95h&quot;: &quot;8.73&quot;,
+      &quot;98h&quot;: &quot;7.49&quot;,
+      &quot;0h&quot;: &quot;7.49&quot;
+    },
+    {
+      &quot;city&quot;: &quot;西藏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;8.86&quot;,
+      &quot;b97&quot;: &quot;9.37&quot;,
+      &quot;b0&quot;: &quot;7.23&quot;,
+      &quot;92h&quot;: &quot;8.86&quot;,
+      &quot;95h&quot;: &quot;9.37&quot;,
+      &quot;98h&quot;: &quot;7.23&quot;,
+      &quot;0h&quot;: &quot;7.23&quot;
+    },
+    {
+      &quot;city&quot;: &quot;陕西&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.31&quot;,
+      &quot;b0&quot;: &quot;5.67&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.31&quot;,
+      &quot;98h&quot;: &quot;5.67&quot;,
+      &quot;0h&quot;: &quot;5.67&quot;
+    },
+    {
+      &quot;city&quot;: &quot;甘肃&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.87&quot;,
+      &quot;b97&quot;: &quot;8.41&quot;,
+      &quot;b0&quot;: &quot;5.51&quot;,
+      &quot;92h&quot;: &quot;7.87&quot;,
+      &quot;95h&quot;: &quot;8.41&quot;,
+      &quot;98h&quot;: &quot;5.51&quot;,
+      &quot;0h&quot;: &quot;5.51&quot;
+    },
+    {
+      &quot;city&quot;: &quot;青海&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.94&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;5.85&quot;,
+      &quot;92h&quot;: &quot;7.94&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;5.85&quot;,
+      &quot;0h&quot;: &quot;5.85&quot;
+    },
+    {
+      &quot;city&quot;: &quot;宁夏&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.88&quot;,
+      &quot;b97&quot;: &quot;8.33&quot;,
+      &quot;b0&quot;: &quot;5.56&quot;,
+      &quot;92h&quot;: &quot;7.88&quot;,
+      &quot;95h&quot;: &quot;8.33&quot;,
+      &quot;98h&quot;: &quot;5.56&quot;,
+      &quot;0h&quot;: &quot;5.56&quot;
+    },
+    {
+      &quot;city&quot;: &quot;新疆&quot;,
+      &quot;b90&quot;: &quot;-&quot;,
+      &quot;b93&quot;: &quot;7.90&quot;,
+      &quot;b97&quot;: &quot;8.51&quot;,
+      &quot;b0&quot;: &quot;6.06&quot;,
+      &quot;92h&quot;: &quot;7.90&quot;,
+      &quot;95h&quot;: &quot;8.51&quot;,
+      &quot;98h&quot;: &quot;6.06&quot;,
+      &quot;0h&quot;: &quot;6.06&quot;
+    }
+  ],
+  &quot;error_code&quot;: 0
+}): failed to open stream: Invalid argument at C:\\wnmp\\www\\myshop\\app\\Http\\Controllers\\ceshi\\wechat\\OilPriceController.php:365)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\wnmp\\\\www\\\\mys...', 365, Array)
+#1 C:\\wnmp\\www\\myshop\\app\\Http\\Controllers\\ceshi\\wechat\\OilPriceController.php(365): file_get_contents('{\
+  \"resultcode...')
+#2 [internal function]: App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController->call()
+#3 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): call_user_func_array(Array, Array)
+#4 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('call', Array)
+#5 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ceshi\\wechat\\OilPriceController), 'call')
+#6 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(176): Illuminate\\Routing\\Route->runController()
+#7 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(680): Illuminate\\Routing\\Route->run()
+#8 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(682): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#30 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#31 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#32 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#33 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\wnmp\\www\\myshop\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 C:\\wnmp\\www\\myshop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#52 C:\\wnmp\\www\\myshop\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#53 {main}
+"} 

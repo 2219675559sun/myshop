@@ -97,5 +97,57 @@ class Wechat
 
         return $access_token;
     }
+    //去除多余表情
+    public function filterEmoji($str)
+    {
+        $str = preg_replace_callback(
+            '/./u',
+            function (array $match) {
+                return strlen($match[0]) >= 4 ? '' : $match[0];
+            },
+            $str);
+        return $str;
+    }
+
+    //刷新菜单
+    public function menu($connection,$table){
+        $url="https://api.weixin.qq.com/cgi-bin/menu/create?access_token={$this->access_token()}";
+        $info=DB::connection($connection)->table($table)->get()->toArray();
+        $data=[];
+        foreach ($info as $k => $v) {
+            if($v->menu==0){
+                //一级菜单
+                $data["button"][] = [
+                    "type" => $v->type,
+                    "name" => $v->one_name,
+                    $v->type=='click'?"key":"url" => $v->url,
+                ];
+            }else{
+                $sub_button=[];
+//                二级菜单
+                $list = DB::connection($connection)->table($table)->where('menu', $v->id)->get()->toArray();
+                foreach($list as $val){
+                    if($val->type=='click'){
+                        $sub_button[] = [
+                            "type" => $val->type,
+                            "name" => $val->two_name,
+                            "key" => $val->url,
+                        ];
+                    }else{
+                        $sub_button[] = [
+                            "type" => $val->type,
+                            "name" => $val->two_name,
+                            "url" => $val->url,
+                        ];
+                    }
+                }
+                if(!empty($sub_button)){
+                    $data['button'][]=['name'=>$v->one_name,'sub_button'=>$sub_button];
+                }
+            }
+        }
+        $res=$this->wechat->post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
+        dd($res);
+    }
 
 }

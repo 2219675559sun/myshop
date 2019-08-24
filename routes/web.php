@@ -272,7 +272,7 @@ Route::get('/menu/delete_menu', 'ceshi\MenuController@delete_menu');
 //公众号 表白小功能
 //登录
 Route::get('/confession/log', 'ceshi\wechat\ConfessionController@log');
-
+Route::get('/confession/login', 'ceshi\wechat\ConfessionController@login');
 Route::group(['middleware' => ['confession']], function () {
     //
 Route::get('/confession/add_menu', 'ceshi\wechat\ConfessionController@add_menu');
@@ -301,3 +301,21 @@ Route::get('/liuyan/liuyan', 'ceshi\wechat\LiuyanController@liuyan');
 Route::post('/liuyan/liuyan_do', 'ceshi\wechat\LiuyanController@liuyan_do');
 
 Route::get('/liuyan/list', 'ceshi\wechat\LiuyanController@list');
+//------------------------------------------------------------------------------------------------------
+//油价管理
+Route::get('/qil/qil_peice', 'ceshi\wechat\OilPriceController@qil_peice');
+//油价调用链接
+Route::get('/qil/call', 'ceshi\wechat\OilPriceController@call');
+
+//---------------------------------------------------------------------------------------------------------
+//微信红包
+//微信授权登录
+Route::get('/redPacket/log', 'ceshi\wechat\RedPacketController@log');
+Route::get('/redPacket/login', 'ceshi\wechat\RedPacketController@login');
+Route::get('/redPacket/login_do', 'ceshi\wechat\RedPacketController@login_do');
+//获取code
+Route::get('/redPacket/code', 'ceshi\wechat\RedPacketController@code');
+//红包算法
+Route::get('/redPacket/red_packet_list', 'ceshi\wechat\RedPacketController@red_packet_list');
+
+

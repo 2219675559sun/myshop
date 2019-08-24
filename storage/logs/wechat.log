@@ -1,0 +1,16 @@
+[2019-08-21 16:17:40] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_eSXd3z3r-cfmqBjR4Ur39A4Jo6uYpEzOI-_GrbaFxxlJn2h262oMj03EoVrMiDn--92JLjfEzvNMGVzh-Et_zSdRSV1hzaS7vOpsXhP0OtzqaU1-BzWM5mqq8HwFRPeAGAVHF HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Wed, 21 Aug 2019 08:17:39 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  

@@ -9,6 +9,7 @@ use App\Http\Controllers\Tools\Wechat;
 use DB;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Storage;
+use function Sodium\add;
 
 class WeixinController extends Controller
 {
@@ -451,6 +452,9 @@ class WeixinController extends Controller
     }
 //    粉丝列表
     public function index(){
+//        $app=app('wechat.official_account');
+//        $data=$app->user->list($nextOpenId = null);
+//        dd($data);
         $data=DB::connection('mysqls')->table('wechat_openid')->get();
 //        dd($data);
 
@@ -458,6 +462,7 @@ class WeixinController extends Controller
     }
 //    粉丝详细信息
     public function index_list(Request $request){
+
         $id=$request->all();
         $data=DB::connection('mysqls')->table('wechat_openid')->where('id',$id)->first();
         return view('ceshi.weixin.index_list',['data'=>$data]);
@@ -554,7 +559,6 @@ class WeixinController extends Controller
                 $path = 'weixin/qrcode/'.$file_name;
                 $re = Storage::disk('local')->put($path, $url->getBody());
                 $agent_code = env('APP_URL').'/storage/'.$path;
-
                 $res=DB::connection('mysqls')->table('weixin_user')->where('id',$id)->update([
                     'agent_code'=>$agent_code,
                 ]);
