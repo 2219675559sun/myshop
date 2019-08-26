@@ -101,8 +101,9 @@ class ConfessionController extends Controller
             $code=$request->all()['code'];
             $url="https://api.weixin.qq.com/sns/oauth2/access_token?appid=".env('WECHAT_APPID')."&secret=".env('WECHAT_APPSECRET')."&code={$code}&grant_type=authorization_code";
             $re=file_get_contents($url);
-            $access_token=json_decode($re,1)['access_token'];
-            $openid=json_decode($re,1)['openid'];
+            $data=json_decode($re,1);
+            $access_token=$data['access_token'];
+            $openid=$data['openid'];
 
             $this->user($access_token,$openid);
     }
