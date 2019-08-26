@@ -47,14 +47,12 @@ class Kernel extends ConsoleKernel
                             $openid_list=$app->user->list($nextOpenId = null);
                             $openid=$openid_list['data'];
                             //循环展示用户的openid
-                            foreach($openid['openid'] as $k=>$v){
-
-                                $app->template_message->send([
-                                    'touser' =>$v,
-                                    'template_id' => 'MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id',
-                                    'url' => 'https://easywechat.org',
+                            foreach($openid['openid'] as $k=>$va){
+                                $moban=$app->template_message->send([
+                                    'touser' =>$va,
+                                    'template_id' => 'MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58',
+                                    'url' => 'http://www.vizhiguo.com/confession/add_confession',
                                     'data' => [
-                                        'first' => $v['city'].'最新油价',
                                         'keyword' => $v['city'] . '最新油价' . "\n" . 'b90:' . $v['b90'] . '￥' . "\n" . 'b93:' . $v['b93'] . '￥' . "\n" . 'b97:' . $v['b97'] . '￥' . "\n" . 'b0:' . $v['b0'] . '￥' . "\n" . '92h:' . $v['92h'] . '￥' . "\n" . '95h:' . $v['95h'] . '￥' . "\n" . '98h:' . $v['98h'] . '￥' . "\n" . '0h:' . $v['0h'] . '￥',
                                         'keyword1'=>date('Y-m-d H:i:s',time()),
                                         'remark'=>'如有打扰 尽情谅解',

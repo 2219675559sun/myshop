@@ -14,3 +14,1299 @@ Content-Length: 365
 {"total":9,"count":9,"data":{"openid":["oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
 --------
 NULL  
+[2019-08-26 16:27:13] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:27:13 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 16:28:51] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:28:51 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 16:31:02] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:31:02 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 16:31:13] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:31:13 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 16:56:54] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:56:54 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 16:57:47] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:47 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 16:57:47] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwf6hokeWLPEb6bRF-WNPGnM","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:47"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:47 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [rcg6TA08673933]"}
+--------
+NULL  
+[2019-08-26 16:57:47] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwZ7k0h3rJfDeyjXmCbpXSow","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:47"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:47 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [dnt1ga08674963]"}
+--------
+NULL  
+[2019-08-26 16:57:47] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwaIvZNO2_uZMH-rw-bcRzPA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:47"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:47 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [eFBMdA08671295]"}
+--------
+NULL  
+[2019-08-26 16:57:48] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfTManpCOxwWkbEP1TPQxCA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:47"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:48 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [QchXSA0868shb1]"}
+--------
+NULL  
+[2019-08-26 16:57:48] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbweAEtwLl5CBZrluOa3VKFrg","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:48"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:48 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [Vga_dA08684116]"}
+--------
+NULL  
+[2019-08-26 16:57:48] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:48"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:48 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [hjaopa08684963]"}
+--------
+NULL  
+[2019-08-26 16:57:48] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwUbm0r4dqL7ronVl-YzAYlc","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:48"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:48 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [PJdLHA08684121]"}
+--------
+NULL  
+[2019-08-26 16:57:48] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwU-uDWXgjOtrcCf_D2LARHs","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:48"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:48 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [3ZY3wA0868shc1]"}
+--------
+NULL  
+[2019-08-26 16:57:48] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwQgtC0yNw8G4ltmo7JkAs4U","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:48"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:48 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [rvot0a08683941]"}
+--------
+NULL  
+[2019-08-26 16:57:49] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:57:48"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:57:49 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [HK7pLA0869shc1]"}
+--------
+NULL  
+[2019-08-26 16:59:58] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:58 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 16:59:58] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwf6hokeWLPEb6bRF-WNPGnM","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:58"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:58 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [z7Nb.A09984102]"}
+--------
+NULL  
+[2019-08-26 16:59:58] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwZ7k0h3rJfDeyjXmCbpXSow","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:58"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:58 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [fKr_La09984116]"}
+--------
+NULL  
+[2019-08-26 16:59:59] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwaIvZNO2_uZMH-rw-bcRzPA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:58"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:59 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [14niga0999shc1]"}
+--------
+NULL  
+[2019-08-26 16:59:59] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfTManpCOxwWkbEP1TPQxCA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:59"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:59 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [_7iJya09993924]"}
+--------
+NULL  
+[2019-08-26 16:59:59] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbweAEtwLl5CBZrluOa3VKFrg","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:59"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:59 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [yImOvA09998672]"}
+--------
+NULL  
+[2019-08-26 16:59:59] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:59"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:59 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [SVrVcA09993954]"}
+--------
+NULL  
+[2019-08-26 16:59:59] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwUbm0r4dqL7ronVl-YzAYlc","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:59"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:59 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [byEoSa09994125]"}
+--------
+NULL  
+[2019-08-26 16:59:59] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwU-uDWXgjOtrcCf_D2LARHs","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:59"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:59 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [lVCGua09993941]"}
+--------
+NULL  
+[2019-08-26 17:00:00] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwQgtC0yNw8G4ltmo7JkAs4U","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 16:59:59"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 08:59:59 GMT
+Content-Length: 67
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [Uy09994106]"}
+--------
+NULL  
+[2019-08-26 17:00:00] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:00:00"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:00:00 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [RShV7a00000500]"}
+--------
+NULL  
+[2019-08-26 17:06:50] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:50 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 17:06:50] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwf6hokeWLPEb6bRF-WNPGnM","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:50"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:50 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [AdC2Ya04103945]"}
+--------
+NULL  
+[2019-08-26 17:06:51] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwZ7k0h3rJfDeyjXmCbpXSow","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:50"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:50 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [fI0IWA04104123]"}
+--------
+NULL  
+[2019-08-26 17:06:51] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwaIvZNO2_uZMH-rw-bcRzPA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:51"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:51 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [bYlQ2a04113945]"}
+--------
+NULL  
+[2019-08-26 17:06:51] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfTManpCOxwWkbEP1TPQxCA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:51"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:51 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [fWgqQA04114126]"}
+--------
+NULL  
+[2019-08-26 17:06:51] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbweAEtwLl5CBZrluOa3VKFrg","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:51"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:51 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [oYSHJa04113113]"}
+--------
+NULL  
+[2019-08-26 17:06:51] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:51"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:51 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [EOeALa04113114]"}
+--------
+NULL  
+[2019-08-26 17:06:52] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwUbm0r4dqL7ronVl-YzAYlc","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:51"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:52 GMT
+Content-Length: 65
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [04123943]"}
+--------
+NULL  
+[2019-08-26 17:06:52] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwU-uDWXgjOtrcCf_D2LARHs","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:52"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:52 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [pyzj4a04123951]"}
+--------
+NULL  
+[2019-08-26 17:06:52] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwQgtC0yNw8G4ltmo7JkAs4U","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:52"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:52 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [liWW6a0412shb1]"}
+--------
+NULL  
+[2019-08-26 17:06:52] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_gS9ReQrUgiKzzTGeg9NmICg5ie25a-67mLxcsHC-hx-YDHLEIVQ_BrP4M0jBbGAyHDpxZwIy8lKnCB99jnYRuElBOWGrOUkU6_nxi222KIQRM0ovy5bw8CuvScCMVGUOC5ulfvggt6A-faEtFFHaACAJJL HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.74￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 17:06:52"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 09:06:52 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [I6MEPA04123114]"}
+--------
+NULL  
+[2019-08-26 18:53:35] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:35 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 18:53:36] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwf6hokeWLPEb6bRF-WNPGnM","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:35"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:36 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [LD_8DA0816shb1]"}
+--------
+NULL  
+[2019-08-26 18:53:37] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwZ7k0h3rJfDeyjXmCbpXSow","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:36"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:37 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [L6C8ga08178641]"}
+--------
+NULL  
+[2019-08-26 18:53:38] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwaIvZNO2_uZMH-rw-bcRzPA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:37"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:37 GMT
+Content-Length: 65
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [08173936]"}
+--------
+NULL  
+[2019-08-26 18:53:38] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfTManpCOxwWkbEP1TPQxCA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:38"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:38 GMT
+Content-Length: 66
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [N08184104]"}
+--------
+NULL  
+[2019-08-26 18:53:39] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbweAEtwLl5CBZrluOa3VKFrg","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:39"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:39 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [3gopiA08194963]"}
+--------
+NULL  
+[2019-08-26 18:53:40] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:39"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:40 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [afTZTA08204119]"}
+--------
+NULL  
+[2019-08-26 18:53:40] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwUbm0r4dqL7ronVl-YzAYlc","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:40"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:40 GMT
+Content-Length: 65
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [08204119]"}
+--------
+NULL  
+[2019-08-26 18:53:41] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwU-uDWXgjOtrcCf_D2LARHs","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:41"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:41 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [w6B7fA08214100]"}
+--------
+NULL  
+[2019-08-26 18:53:42] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwQgtC0yNw8G4ltmo7JkAs4U","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:42"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:42 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [Q8Q4Ya08224126]"}
+--------
+NULL  
+[2019-08-26 18:53:43] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 432
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58-id","url":"https:\/\/easywechat.org","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 18:53:43"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 10:53:43 GMT
+Content-Length: 71
+
+{"errcode":40037,"errmsg":"invalid template_id hint: [CXvj.A08233945]"}
+--------
+NULL  
+[2019-08-26 19:06:22] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:06:22 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:07:47] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:07:47 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:08:45] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:08:45 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:09:05] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:09:05 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:11:31] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:11:31 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:13:54] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_uJJllWikjTIrCNNNWkYR_-uJeUdu03LGkuc-HoQvEcd-yOE4dmpXGw7i3ESXfY01tMyBKMaf__uOCib19dcrysDG1cEZbjeFE7CJXVeSyw6GfaX9HP4dOZrNekRlhaBMeSk38IKqxNTkieqPKNNaADANQQ HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Date: Mon, 26 Aug 2019 11:13:54 GMT
+Content-Type: application/json; encoding=utf-8
+Content-Length: 110
+
+{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest hint: [6._i1a00341491!]"}
+--------
+NULL  
+[2019-08-26 19:13:58] NULL.DEBUG: Retrying with refreshed access token.  
+[2019-08-26 19:13:59] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_vQO6IXOBuhXFZXje5UVvEYRmD0QAzAlCn2D98T2J-08hjhA0sBNqjEo9lPcs1HDO32L57R4Tn1WaS5CJB9WSHctcsJdgzf9PrBJVNUN2fFaziAdIzTATCS0nFxK3PEbkYHP2MHy0LqOniJ0xYJYgADASDS HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:13:59 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:15:41] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_vQO6IXOBuhXFZXje5UVvEYRmD0QAzAlCn2D98T2J-08hjhA0sBNqjEo9lPcs1HDO32L57R4Tn1WaS5CJB9WSHctcsJdgzf9PrBJVNUN2fFaziAdIzTATCS0nFxK3PEbkYHP2MHy0LqOniJ0xYJYgADASDS HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:15:41 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:21:05] NULL.NOTICE: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_vQO6IXOBuhXFZXje5UVvEYRmD0QAzAlCn2D98T2J-08hjhA0sBNqjEo9lPcs1HDO32L57R4Tn1WaS5CJB9WSHctcsJdgzf9PrBJVNUN2fFaziAdIzTATCS0nFxK3PEbkYHP2MHy0LqOniJ0xYJYgADASDS HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+
+--------
+cURL error 35: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.weixin.qq.com:443  (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)  
+[2019-08-26 19:22:07] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_vQO6IXOBuhXFZXje5UVvEYRmD0QAzAlCn2D98T2J-08hjhA0sBNqjEo9lPcs1HDO32L57R4Tn1WaS5CJB9WSHctcsJdgzf9PrBJVNUN2fFaziAdIzTATCS0nFxK3PEbkYHP2MHy0LqOniJ0xYJYgADASDS HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:22:07 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:22:13] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_vQO6IXOBuhXFZXje5UVvEYRmD0QAzAlCn2D98T2J-08hjhA0sBNqjEo9lPcs1HDO32L57R4Tn1WaS5CJB9WSHctcsJdgzf9PrBJVNUN2fFaziAdIzTATCS0nFxK3PEbkYHP2MHy0LqOniJ0xYJYgADASDS HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Date: Mon, 26 Aug 2019 11:22:13 GMT
+Content-Type: application/json; encoding=utf-8
+Content-Length: 110
+
+{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest hint: [LcbNma05331530!]"}
+--------
+NULL  
+[2019-08-26 19:22:14] NULL.DEBUG: Retrying with refreshed access token.  
+[2019-08-26 19:22:14] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:22:14 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:23:48] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:23:48 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:25:00] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:25:00 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:26:51] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:26:51 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:28:12] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:12 GMT
+Content-Length: 398
+
+{"total":10,"count":10,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwQgtC0yNw8G4ltmo7JkAs4U","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-26 19:28:13] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwf6hokeWLPEb6bRF-WNPGnM","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:12"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:13 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103411700121601}
+--------
+NULL  
+[2019-08-26 19:28:13] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwZ7k0h3rJfDeyjXmCbpXSow","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:13"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:13 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103414703226881}
+--------
+NULL  
+[2019-08-26 19:28:14] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwaIvZNO2_uZMH-rw-bcRzPA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:13"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:14 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103419770011650}
+--------
+NULL  
+[2019-08-26 19:28:14] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfTManpCOxwWkbEP1TPQxCA","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:14"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:14 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103423242895360}
+--------
+NULL  
+[2019-08-26 19:28:14] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbweAEtwLl5CBZrluOa3VKFrg","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:14"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:14 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103427739140097}
+--------
+NULL  
+[2019-08-26 19:28:14] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:14"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:14 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103430977175553}
+--------
+NULL  
+[2019-08-26 19:28:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwUbm0r4dqL7ronVl-YzAYlc","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:14"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:15 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103433946742785}
+--------
+NULL  
+[2019-08-26 19:28:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwU-uDWXgjOtrcCf_D2LARHs","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:15"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:15 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103440909221889}
+--------
+NULL  
+[2019-08-26 19:28:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwQgtC0yNw8G4ltmo7JkAs4U","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:15"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:15 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103446496067584}
+--------
+NULL  
+[2019-08-26 19:28:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_mig8XcorO-U6255hl521usber60LSoD9vC6I4v5yi9k8-nPT_wGUvIX7MjVYorzD6-UIwQHqH1OBelDLULgtpNkLsHBWkW85FSFsQGhjIr8A8Nlam3iJU5u2sjeu823XVyX6DULaKNgzRw9SGMVcADAYEN HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 458
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ","template_id":"MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58","url":"http:\/\/www.vizhiguo.com\/confession\/add_confession","data":{"first":{"value":"北京最新油价"},"keyword":{"value":"北京最新油价\nb90:-￥\nb93:6.54￥\nb97:6.97￥\nb0:6.21￥\n92h:6.54￥\n95h:6.97￥\n98h:7.95￥\n0h:6.21￥"},"keyword1":{"value":"2019-08-26 19:28:15"},"remark":{"value":"如有打扰 尽情谅解"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Mon, 26 Aug 2019 11:28:16 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":960103449750798338}
+--------
+NULL  
