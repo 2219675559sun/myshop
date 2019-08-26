@@ -106,14 +106,27 @@ class WechatController extends Controller
                 $city = $data['result'];
                 foreach ($city as $k => $v) {
                     if (strstr($v['city'],$local)!=false) {
-                        $message = $v['city'] . '最新油价' . "\n" . 'b90:' . $v['b90'] . '￥' . "\n" . 'b93:' . $v['b93'] . '￥' . "\n" . 'b97:' . $v['b97'] . '￥' . "\n" . 'b0:' . $v['b0'] . '￥' . "\n" . '92h:' . $v['92h'] . '￥' . "\n" . '95h:' . $v['95h'] . '￥' . "\n" . '98h:' . $v['98h'] . '￥' . "\n" . '0h:' . $v['0h'] . '￥';
+                        //记录查询次数
+                        $redis=new \Redis;
+                        $redis->connect('127.0.0.1',6379);
+                        $redis->incr($v['city'].'油价');
+                        //如果查询次数大于10次存入redis缓存
+                        if($redis->get($v['city'].'油价')>='10'){
+                            $message_info = $v['city'] . '最新油价' . "\n" . 'b90:' . $v['b90'] . '￥' . "\n" . 'b93:' . $v['b93'] . '￥' . "\n" . 'b97:' . $v['b97'] . '￥' . "\n" . 'b0:' . $v['b0'] . '￥' . "\n" . '92h:' . $v['92h'] . '￥' . "\n" . '95h:' . $v['95h'] . '￥' . "\n" . '98h:' . $v['98h'] . '￥' . "\n" . '0h:' . $v['0h'] . '￥';
+                            $redis->set($v['city'],$message_info);
+                        }
+                        //如果redis有缓存记录则从缓存拿数据否则查询
+                        if($redis->get($v['city'])!=false){
+                            $message=$redis->get($v['city']);
+                        }else{
+                            $message = $v['city'] . '最新油价' . "\n" . 'b90:' . $v['b90'] . '￥' . "\n" . 'b93:' . $v['b93'] . '￥' . "\n" . 'b97:' . $v['b97'] . '￥' . "\n" . 'b0:' . $v['b0'] . '￥' . "\n" . '92h:' . $v['92h'] . '￥' . "\n" . '95h:' . $v['95h'] . '￥' . "\n" . '98h:' . $v['98h'] . '￥' . "\n" . '0h:' . $v['0h'] . '￥';
+                        }
                    }
                     if(empty($message)){
                         $message="未查询到当前城市！请重新输入！";
                     }
                 }
             }
-//            dd($message);
             $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
             echo $xml_str;
         }
