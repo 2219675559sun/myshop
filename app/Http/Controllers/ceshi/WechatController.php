@@ -105,10 +105,10 @@ class WechatController extends Controller
                 $data = json_decode($json, 1);
                 $city = $data['result'];
                 foreach ($city as $k => $v) {
-//                    dump($v['city']==$local);
-                    if ($v['city'] == $local) {
+                    if (strstr($v['city'],$local)!=false) {
                         $message = $v['city'] . '最新油价' . "\n" . 'b90:' . $v['b90'] . '￥' . "\n" . 'b93:' . $v['b93'] . '￥' . "\n" . 'b97:' . $v['b97'] . '￥' . "\n" . 'b0:' . $v['b0'] . '￥' . "\n" . '92h:' . $v['92h'] . '￥' . "\n" . '95h:' . $v['95h'] . '￥' . "\n" . '98h:' . $v['98h'] . '￥' . "\n" . '0h:' . $v['0h'] . '￥';
-                    }else{
+                   }
+                    if(empty($message)){
                         $message="未查询到当前城市！请重新输入！";
                     }
                 }
