@@ -116,12 +116,13 @@ class WechatController extends Controller
                             $redis->set($v['city'], json_encode($v));
                         }
                         //如果redis有缓存记录则从缓存拿数据否则查询
-                        if($redis->get($v['city'])==false){
+                        if($redis->get($v['city']) == false){
                             $message = $v['city'] . '最新油价' . "\n" . 'b90:' . $v['b90'] . '￥' . "\n" . 'b93:' . $v['b93'] . '￥' . "\n" . 'b97:' . $v['b97'] . '￥' . "\n" . 'b0:' . $v['b0'] . '￥' . "\n" . '92h:' . $v['92h'] . '￥' . "\n" . '95h:' . $v['95h'] . '￥' . "\n" . '98h:' . $v['98h'] . '￥' . "\n" . '0h:' . $v['0h'] . '￥';
                         }else{
                             $val=json_decode($redis->get($v['city']),1);
                             $message = $val['city'] . '最新油价!' . "\n" . 'b90:' . $val['b90'] . '￥' . "\n" . 'b93:' . $val['b93'] . '￥' . "\n" . 'b97:' . $val['b97'] . '￥' . "\n" . 'b0:' . $val['b0'] . '￥' . "\n" . '92h:' . $val['92h'] . '￥' . "\n" . '95h:' . $val['95h'] . '￥' . "\n" . '98h:' . $val['98h'] . '￥' . "\n" . '0h:' . $val['0h'] . '￥';
                         }
+                        dd($message);
                    }
                     if(empty($message)){
                         $message="未查询到当前城市！请重新输入！";
