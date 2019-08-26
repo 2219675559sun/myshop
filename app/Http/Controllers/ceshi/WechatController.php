@@ -95,22 +95,26 @@ class WechatController extends Controller
             $conent=$xml['Content'];
             $name=substr($conent,-6);
             $message='';
-            if($name !='油价'){
-                $message='请输入正确格式，如:北京油价'; die;
-            }
-            //用户输入的查询的城市
-            $local=substr($conent,0,-6);
-            $url="http://www.vizhiguo.com/qil/call";
-            $json=file_get_contents($url);
-            $data=json_decode($json,1);
-            $city=$data['result'];
-            foreach($city as $k=>$v){
-                if($v['city']==$local){
-                    $message=$v['city'].'最新油价'."<br>".'b90:'.$v['b90'].'￥'."<br>".'b93:'.$v['b93'].'￥'."<br>".'b97:'.$v['b97'].'￥'."<br>".'b0:'.$v['b0'].'￥'."<br>".'92h:'.$v['92h'].'￥'."<br>".'95h:'.$v['95h'].'￥'."<br>".'98h:'.$v['98h'].'￥'."<br>".'0h:'.$v['0h'].'￥';
-                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
-
+            if($name !="油价"){
+                $message='请输入正确格式，如:北京油价';
+            }else {
+                //用户输入的查询的城市
+                $local = substr($conent, 0, -6);
+                $url = "http://www.vizhiguo.com/qil/call";
+                $json = file_get_contents($url);
+                $data = json_decode($json, 1);
+                $city = $data['result'];
+                foreach ($city as $k => $v) {
+//                    dump($v['city']==$local);
+                    if ($v['city'] == $local) {
+                        $message = $v['city'] . '最新油价' . "\n" . 'b90:' . $v['b90'] . '￥' . "\n" . 'b93:' . $v['b93'] . '￥' . "\n" . 'b97:' . $v['b97'] . '￥' . "\n" . 'b0:' . $v['b0'] . '￥' . "\n" . '92h:' . $v['92h'] . '￥' . "\n" . '95h:' . $v['95h'] . '￥' . "\n" . '98h:' . $v['98h'] . '￥' . "\n" . '0h:' . $v['0h'] . '￥';
+                    }else{
+                        $message="未查询到当前城市！请重新输入！";
+                    }
                 }
             }
+//            dd($message);
+            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
             echo $xml_str;
         }
 
