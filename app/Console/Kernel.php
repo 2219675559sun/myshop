@@ -27,6 +27,8 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->call(function () {
+            \Log::info(1231232123);
+            die;
             $url="http://www.vizhiguo.com/qil/call";
             $data=file_get_contents($url);
             $data=json_decode($data,1);
