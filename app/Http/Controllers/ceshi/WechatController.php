@@ -113,7 +113,7 @@ class WechatController extends Controller
                         //如果查询次数大于10次存入redis缓存
                         if($redis->get($v['city'].'油价')>='10'){
 
-                            $redis->set($v['city'], json_encode($v));
+                            $redis->set($v['city'], json_encode($v,JSON_UNESCAPED_UNICODE));
                         }
                         //如果redis有缓存记录则从缓存拿数据否则查询
                         if($redis->get($v['city']) == false){
