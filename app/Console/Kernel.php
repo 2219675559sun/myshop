@@ -30,8 +30,7 @@ class Kernel extends ConsoleKernel
             $redis=new \Redis;
             $redis->connect('127.0.0.1','6379');
             $app=app('wechat.official_account');
-            \Log::info(1231232123);
-            die;
+
             $url="http://www.vizhiguo.com/qil/call";
             $data=file_get_contents($url);
             $data=json_decode($data,1);
@@ -66,8 +65,8 @@ class Kernel extends ConsoleKernel
                 }
             }
 //        dd($moban);
-//        })->daily();
-        })->everyMinute();
+        })->daily();
+//        })->everyMinute();
 
     }
 
