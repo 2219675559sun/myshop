@@ -27,14 +27,15 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->call(function () {
+            $redis=new \Redis;
+            $redis->connect('127.0.0.1','6379');
+            $app=app('wechat.official_account');
             \Log::info(1231232123);
             die;
             $url="http://www.vizhiguo.com/qil/call";
             $data=file_get_contents($url);
             $data=json_decode($data,1);
             $city = $data['result'];
-            $redis=new \Redis;
-            $redis->connect('127.0.0.1','6379');
             foreach ($city as $k => $v) {
 //            查询存入redis里的数据
                 if($redis->exists($v['city'])){
@@ -44,7 +45,6 @@ class Kernel extends ConsoleKernel
                     foreach($v as $k=>$val){
                         if($val != $city_info[$k]){
 //                       模板推送
-                            $app=app('wechat.official_account');
                             //查询用户
                             $openid_list=$app->user->list($nextOpenId = null);
                             $openid=$openid_list['data'];
