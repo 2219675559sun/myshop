@@ -65,9 +65,9 @@ class Kernel extends ConsoleKernel
                 }
             }
 //        dd($moban);
-//        })->daily();
+        })->daily();
 //        })->everyMinute();
-    })->everyFiveMinutes();
+//    })->everyFiveMinutes();
     }
 
     /**
