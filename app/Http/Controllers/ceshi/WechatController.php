@@ -103,7 +103,19 @@ class WechatController extends Controller
                 $message = '欢迎'.session('name').'登录';
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
+                if($xml['EventKey']=='chaxun'){
+                    $da=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
+                    $app->template_message->send([
+                        'touser' =>$xml['FromUserName'],
+                        'template_id' => 'rmQ8Gl4RIM20J_imrbxoBs0V_aR0gPpYFR9VWoft41s',
+                        'url' => 'https://baidu.com',
+                        'data' => [
+                            'first' =>$da->integral,
+        ],
+    ]);
+
             }
+        }
         }
 
     }
