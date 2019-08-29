@@ -76,9 +76,10 @@ class WechatController extends Controller
         if($xml['MsgType'] == 'event'){//关注事件
             if($xml['Event'] == 'subscribe'){ //关注
                     //拉新操作
-                    $openid=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
+                $openid=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
             if(empty($openid)){
                 $user = $app->user->get($xml['FromUserName']);
+                dd($user['openid']);
                 $res=DB::connection('mysqls')->table('wechat_openid')->insert([
                     'openid'=>$user['openid'],
                     'nickname'=>$this->wechat->filterEmoji($user['nickname']),
