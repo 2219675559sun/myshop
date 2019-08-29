@@ -1,63 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\ceshi;
+namespace App\Http\Controllers\ceshi\wechat;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use DB;
-class WechatController extends Controller
+
+class IntegralController extends Controller
 {
-    //单个用户
-    public function info(){
-        $openid='oC0jbweAEtwLl5CBZrluOa3VKFrg';
-        $access_token=$this->access_token();
-        $user=file_get_contents("https://api.weixin.qq.com/cgi-bin/user/info?access_token={$access_token}&openid={$openid}&lang=zh_CN");
-        $user_list=json_decode($user,1);
-        dd($user_list);
-
-    }
-    public function list(){
-        //获取关注用户列表
-        $access_token=$this->access_token();
-//        dd($access_token);
-        $user=file_get_contents("https://api.weixin.qq.com/cgi-bin/user/get?access_token={$access_token}&next_openid=");
-        $user_list=json_decode($user,1);
-        dd($user_list);
-    }
-    public function access_token(){
-        $redis=new \Redis;
-        $redis->connect('127.0.0.1','6379');
-        $access_token_key='access_token';
-        if($redis->exists($access_token_key)){
-            $access_token=$redis->get('access_token');
-        }else{
-//        获取access_token
-        $data=file_get_contents("https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".env('WECHAT_APPID')."&secret=".env('WECHAT_APPSECRET')."");
-        $access=json_decode($data,1);
-        $access_token=$access['access_token'];
-        $expires_time=$access['expires_in'];
-        $redis->set($access_token_key,$access_token,$expires_time);
-        }
-        return $access_token;
-    }
-//    自动回复
     public function event(){
-        die;
-        //    接口配置
-//        echo $_GET['echostr'];
-//        die;
-
-        //$this->checkSignature();
-//        $data = file_get_contents("php://input");
-//        //解析XML
-//        $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
-//        $xml = (array)$xml; //转化成数组
-//        $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
-//        file_put_contents(storage_path('logs/wx_event.log'),$log_str,FILE_APPEND);
-//        $message = '你好,有什么需要帮助的!';
-//        $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
-//        echo $xml_str;
-//------------------------------------------------------------------------------------------------------------------
         $data = file_get_contents("php://input");
         //解析XML
         $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
@@ -123,7 +73,7 @@ class WechatController extends Controller
                             $val=json_decode($redis->get($v['city']),1);
                             $message = $val['city'] . '最新油价!' . "\n" . 'b90:' . $val['b90'] . '￥' . "\n" . 'b93:' . $val['b93'] . '￥' . "\n" . 'b97:' . $val['b97'] . '￥' . "\n" . 'b0:' . $val['b0'] . '￥' . "\n" . '92h:' . $val['92h'] . '￥' . "\n" . '95h:' . $val['95h'] . '￥' . "\n" . '98h:' . $val['98h'] . '￥' . "\n" . '0h:' . $val['0h'] . '￥';
                         }
-                   }
+                    }
                     if(empty($message)){
                         $message="未查询到当前城市！请重新输入！";
                     }
@@ -132,7 +82,5 @@ class WechatController extends Controller
             $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
             echo $xml_str;
         }
-
     }
-
 }

@@ -318,4 +318,8 @@ Route::get('/redPacket/code', 'ceshi\wechat\RedPacketController@code');
 //红包算法
 Route::get('/redPacket/red_packet_list', 'ceshi\wechat\RedPacketController@red_packet_list');
 
+//----------------------------------------------------------------------------------------
+//积分
+Route::post('/integral/event', 'ceshi\wechat\IntegralController@event');
+
 

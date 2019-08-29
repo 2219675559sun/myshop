@@ -55,7 +55,7 @@ class WeixinController extends Controller
         }else{
             DB::connection('mysqls')->beginTransaction();
             $user=DB::connection('mysqls')->table('weixin_user')->insertGetId([
-                'name'=>$arr['nickname'],
+                'name'=>$this->wechat->filterEmoji($arr['nickname']),
                 'pwd'=>'',
                 'reg_time'=>0,
             ]);
@@ -488,7 +488,7 @@ class WeixinController extends Controller
             if(empty($data)){
                 DB::connection('mysqls')->table('wechat_openid')->insert([
                     'openid'=>$user['openid'],
-                    'nickname'=>$user['nickname'],
+                    'nickname'=>$this->wechat->filterEmoji($user['nickname']),
                     'subscribe'=>$user['subscribe'],
                     'sex'=>$user['sex'],
                     'country'=>$user['country'],

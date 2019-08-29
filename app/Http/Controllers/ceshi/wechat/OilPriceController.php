@@ -13,11 +13,42 @@ class OilPriceController extends Controller
     }
 
     public function qil_peice(){
+//        压缩
+        $str="aavvjjjd";
+        $num=strlen($str);
+        $a='';
+        $b=0;
+        for($i=0;$i<=$num-1;$i++){
+            $c=substr($str,$i,1);
+            $d=substr($str,$i+1,1);
+            if($c==$d){
+                $b+=1;
+            }else{
+                if($b!=0){
+                    $a.=$b.$c;
+                }else{
+                    $a.=$c;
+                }
+                $b=0;
+            }
+        }
+        echo $a;
+        die;
+        //字符串翻转
+        $string='abcd';
+            $str_new='';
+            $count=strlen($string)-1;
+            for($m=$count;$m>=0;$m--){
+                $str_new.=$string{$m};
+            }
+        echo $str_new;
+
+        die;
 //        $redis=new \Redis;
 //        $redis->connect('127.0.0.1','6379');
-//        $a="去哪里123";
-//        $redis->set('ceshi',$a);
-//        dd($redis->get('ceshi'));
+//        $a="天津";
+////        $redis->set('ceshi',$a);
+//        dd($redis->del($a));
 //        die;
         $url="http://www.vizhiguo.com/qil/call";
         $data=file_get_contents($url);
@@ -25,7 +56,7 @@ class OilPriceController extends Controller
         $city = $data['result'];
         $redis=new \Redis;
         $redis->connect('127.0.0.1','6379');
-        $a="天津";
+
 //        dd($redis->del($a));
         foreach ($city as $k => $v) {
 //            查询存入redis里的数据
@@ -34,21 +65,16 @@ class OilPriceController extends Controller
 //                如果数据更新查出来
                foreach($v as $k=>$val){
                    if($val != $city_info[$k]){
-                       dump($v);
-
-
-                   }
-               }
-            }
-        }
 //                    模板推送
                        $app=app('wechat.official_account');
                        //查询用户
                        $openid_list=$app->user->list($nextOpenId = null);
                        $openid=$openid_list['data'];
                        //循环展示用户的openid
+
                        foreach($openid['openid']  as $va){
-                     /*  $moban=$app->template_message->send([
+                          dump($va);
+                     $moban=$app->template_message->send([
                            'touser' =>'oC0jbwb7N0sRXXHi-O_EJUcahS94',
                            'template_id' => 'MOtuco--HJATnyPCuegGKQR27e2u2NNycf4pyMpuX58',
                            'url' => 'http://www.vizhiguo.com/confession/add_confession',
@@ -57,9 +83,12 @@ class OilPriceController extends Controller
                                 'keyword1'=>date('Y-m-d H:i:s',time()),
                                'remark'=>'如有打扰 尽情谅解',
                         ],
-                    ]);*/
+                    ]);
                        }
-
+                   }
+               }
+            }
+        }
 
 //        dd($moban);
     }

@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="cef31c90-3d7f-4b25-a90b-6f548916f95d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PayController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2019-08-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2019-08-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2019-08-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2019-08-12.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/wechat.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/wechat.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/wx_event.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/wx_event.log" afterDir="false" />
     </list>
@@ -48,32 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="284" column="38" selection-start-line="284" selection-start-column="13" selection-end-line="284" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Tools/Wechat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="48" />
-              <folding>
-                <element signature="e#46#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="81" column="431" selection-start-line="81" selection-start-column="431" selection-end-line="81" selection-end-column="431" />
-              <folding>
-                <element signature="e#53#81#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="404">
+              <caret line="322" column="28" lean-forward="true" selection-start-line="322" selection-start-column="14" selection-end-line="322" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -81,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/wechat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="1456">
               <caret line="59" column="21" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="21" />
             </state>
           </provider>
@@ -90,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
               </folding>
@@ -99,11 +80,45 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/IntegralController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-08-29.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4612" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/logs/wx_event.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38576">
+              <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="600">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -142,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/ceshi/weixin/tagIndex.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/ceshi/weixin/tag_push.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Admin.php" />
@@ -151,7 +164,6 @@
         <option value="$PROJECT_DIR$/resources/views/ceshi/weixin/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/weixin/source_list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/conmmen.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/routes/web.php" />
         <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/storage/logs/laravel-2019-08-13.log" />
@@ -176,7 +188,6 @@
         <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/Tools/Wechat.php" />
         <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/ceshi/wechat/ConfessionController.php" />
         <option value="$PROJECT_DIR$/config/wechat.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Tools/Wechat.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/confession/log.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/redPacket/log.blade.php" />
@@ -184,15 +195,19 @@
         <option value="$PROJECT_DIR$/resources/views/ceshi/wechat/redPacket/red_packet_list.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/RedPacketController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPrice.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/.env" />
-        <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/ceshi/wechat/OilPriceController.php" />
         <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/ceshi/WechatController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php" />
+        <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
+        <option value="&lt;5cb5a09d-e608-47cd-a5c2-636547243267&gt;/app/Http/Controllers/ceshi/wechat/OilPriceController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/IntegralController.php" />
       </list>
     </option>
   </component>
@@ -342,12 +357,40 @@
             <path>
               <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="myshop" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,11 +495,15 @@
       <workItem from="1566522802713" duration="9844000" />
       <workItem from="1566613612570" duration="13970000" />
       <workItem from="1566779328613" duration="24121000" />
+      <workItem from="1566865749110" duration="19417000" />
+      <workItem from="1566952988414" duration="268000" />
+      <workItem from="1566977040688" duration="4788000" />
+      <workItem from="1567038270024" duration="2153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="654736000" />
+    <option name="totallyTimeSpent" value="683805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +518,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.1883378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.19235925" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2124665" />
       <window_info id="Favorites" order="2" sideWeight="0.5021008" side_tool="true" weight="0.18498659" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -493,6 +540,29 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32908848" />
       <window_info anchor="right" id="Remote Host" order="4" weight="0.26876676" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.19101876" />
+      <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2124665" />
+      <window_info id="Favorites" order="2" sideWeight="0.5021008" side_tool="true" weight="0.18498659" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49782798" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49782798" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49869677" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49731904" weight="0.32577905" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32908848" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.26876676" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -524,20 +594,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/weixin/tagIndex.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/ceshi/weixin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/conmmen.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -696,17 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="561" column="16" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
-          <folding>
-            <element signature="e#46#65#0#PHP" expanded="true" />
-            <element signature="e#8053#8937#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/ceshi/wechat/confession/log.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -738,13 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -805,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/wx_event.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
-          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/app/public/weixin/qrcode/15657511051738.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -822,65 +853,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/wechat.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="600">
+          <caret line="163" column="74" selection-start-line="163" selection-start-column="74" selection-end-line="163" selection-end-column="74" />
+          <folding>
+            <element signature="e#53#81#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/ConfessionController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WeixinController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="94" column="31" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="31" />
+        <state relative-caret-position="28">
+          <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+          <folding>
+            <element signature="e#46#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="e#53#81#0#PHP" expanded="true" />
-            <element signature="e#3947#5069#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Tools/Wechat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="600">
+          <caret line="90" column="35" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="35" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="284" column="38" selection-start-line="284" selection-start-column="13" selection-end-line="284" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="600">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/OilPriceController.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="81" column="431" selection-start-line="81" selection-start-column="431" selection-end-line="81" selection-end-column="431" />
+        <state relative-caret-position="404">
+          <caret line="322" column="28" lean-forward="true" selection-start-line="322" selection-start-column="14" selection-end-line="322" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/wx_event.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38576">
+          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-08-29.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/WechatController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding>
-            <element signature="e#53#81#0#PHP" expanded="true" />
+            <element signature="e#46#74#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ceshi/wechat/IntegralController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
