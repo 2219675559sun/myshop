@@ -27,7 +27,23 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->call(function () {
-            $redis=new \Redis;
+            $app=app('wechat.official_account');
+            $info=$app->user->list($nextOpenId = null);
+            $openid=$info['data'];
+            foreach($openid['openid'] as $v){
+                $moban= $app->template_message->send([
+                    'touser' => $v,
+                    'template_id' => 'b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E',
+                    'url' => 'https://easywechat.org',
+                    'data' => [
+                        'keyword' => '您还没签到',
+                    ],
+                ]);
+            }
+
+
+
+           /* $redis=new \Redis;
             $redis->connect('127.0.0.1','6379');
             $app=app('wechat.official_account');
 
@@ -63,10 +79,10 @@ class Kernel extends ConsoleKernel
                         }
                     }
                 }
-            }
+            }*/
 //        dd($moban);
-        })->daily();
-//        })->everyMinute();
+//        })->daily();
+        })->everyMinute();
 //    })->everyFiveMinutes();
     }
 
