@@ -115,11 +115,12 @@ class WechatController extends Controller
                     $message ='关注成功';
                     $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->update([
                         'is_isset'=>'1',
-                        'integral'=>$re->integral+5,
+                        'integral'=>$re->integral+($re->aa+1)*5,
+                        'aa'=>$re->aa==5?'0':$re->aa+1,
                     ]);
 
                 }
-
+dd($message);
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
             }
