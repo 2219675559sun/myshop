@@ -42,7 +42,6 @@ class WechatController extends Controller
     }
 //    自动回复
     public function event(){
-        die;
         //    接口配置
 //        echo $_GET['echostr'];
 //        die;
