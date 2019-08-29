@@ -127,5 +127,8 @@ class WechatController extends Controller
         }
 
     }
+    public function add(){
+
+    }
 
 }
