@@ -100,9 +100,6 @@ class WechatController extends Controller
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
             }else{
-                $message = '欢迎'.session('name').'登录';
-                $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
-                echo $xml_str;
                 if($xml['EventKey']=='chaxun'){
                     $da=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
                     $app->template_message->send([
