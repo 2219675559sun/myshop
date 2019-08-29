@@ -110,9 +110,9 @@ class WechatController extends Controller
                 $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
 
                 if( $re->is_isset==1){
-                    $message ='已关注';
+                    $message ='已签到';
                 }else{
-                    $message ='关注成功';
+                    $message ='签到成功';
                     $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->update([
                         'is_isset'=>'1',
                         'integral'=>$re->integral+($re->aa+1)*5,
@@ -128,6 +128,22 @@ class WechatController extends Controller
 
     }
     public function add(){
+        $app=app('wechat.official_account');
+            $info=$app->user->list($nextOpenId = null);
+            $openid=$info['data'];
+            foreach($openid['openid'] as $v){
+               $moban= $app->template_message->send([
+                    'touser' => $v,
+                    'template_id' => 'b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E',
+                    'url' => 'https://easywechat.org',
+                    'data' => [
+                        'keyword' => '尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。',
+
+        ],
+    ]);
+            }
+
+dd($moban);
 
     }
 
