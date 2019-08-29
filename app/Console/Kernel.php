@@ -94,8 +94,8 @@ class Kernel extends ConsoleKernel
 //        })->everyMinute();
 //    })->everyFiveMinutes();
         $schedule->command('report:generate')
-            ->timezone('America/New_York')
-            ->at('13:05');
+            ->timezone('China:Beijing')
+            ->at('15:15');
     }
 
     /**
