@@ -28,21 +28,6 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->call(function () {
-            $app=app('wechat.official_account');
-            $res=DB::connection('mysqls')->table('wechat_openid')->get()->toArray();
-            foreach($res as $v) {
-                $res = DB::connection('mysqls')->table('wechat_openid')->where('openid', $v->openid)->first();
-                if ($res->is_isset == 0) {
-                    $moban = $app->template_message->send([
-                        'touser' => $v->openid,
-                        'template_id' => 'b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E',
-                        'url' => 'https://easywechat.org',
-                        'data' => [
-                            'keyword' => '您还没签到',
-                        ],
-                    ]);
-                }
-            }
             //断签的话为0
             $res=DB::connection('mysqls')->table('wechat_openid')->get()->toArray();
             foreach($res as $v){
@@ -95,9 +80,23 @@ class Kernel extends ConsoleKernel
         })->daily();
 //        })->everyMinute();
 //    })->everyFiveMinutes();
-        $schedule->command('report:generate')
-            ->timezone('China:Beijing')
-            ->at('15:15');
+        $schedule->call(function () {
+            $app=app('wechat.official_account');
+            $res=DB::connection('mysqls')->table('wechat_openid')->get()->toArray();
+            foreach($res as $v) {
+                $res = DB::connection('mysqls')->table('wechat_openid')->where('openid', $v->openid)->first();
+                if ($res->is_isset == 0) {
+                    $moban = $app->template_message->send([
+                        'touser' => $v->openid,
+                        'template_id' => 'b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E',
+                        'url' => 'https://easywechat.org',
+                        'data' => [
+                            'keyword' => '您还没签到',
+                        ],
+                    ]);
+                }
+            }
+        })->dailyAt('16:25');
     }
 
     /**
