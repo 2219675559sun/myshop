@@ -24,6 +24,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
+
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->call(function () {
@@ -81,8 +82,8 @@ class Kernel extends ConsoleKernel
                 }
             }*/
 //        dd($moban);
-//        })->daily();
-        })->everyMinute();
+        })->daily();
+//        })->everyMinute();
 //    })->everyFiveMinutes();
     }
 
