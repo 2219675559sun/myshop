@@ -102,13 +102,24 @@ class WechatController extends Controller
             }
             if($xml['EventKey']=='CX'){
                 $da=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
-
                 $message = '当前积分：'.$da->integral;
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
             }
             if($xml['EventKey']=='QD'){
-                $message = '当前积分：';
+                $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
+
+                if( $re->is_isset==1){
+                    $message ='已关注';
+                }else{
+                    $message ='关注成功';
+                    $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->update([
+                        'is_isset'=>'1',
+                        'integral'=>$re->integral+5,
+                    ]);
+
+                }
+
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
             }
