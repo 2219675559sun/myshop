@@ -5,8 +5,16 @@ namespace App\Http\Controllers\ceshi;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use DB;
+use App\Http\Controllers\Tools\Wechat;
 class WechatController extends Controller
 {
+    public $wechat;
+    public $request;
+    public function __construct(Wechat $wechat,Request $request)
+    {
+        $this->wechat=$wechat;
+        $this->request=$request;
+    }
     //单个用户
     public function info(){
         $openid='oC0jbweAEtwLl5CBZrluOa3VKFrg';
@@ -41,7 +49,7 @@ class WechatController extends Controller
         return $access_token;
     }
 //    自动回复
-    public function event(){
+    public function event(Request $request){
         //    接口配置
 //        echo $_GET['echostr'];
 //        die;
@@ -64,25 +72,35 @@ class WechatController extends Controller
         $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
 //        写入log日志
         file_put_contents(storage_path('logs/wx_event.log'),$log_str,FILE_APPEND);
+        $app=app('wechat.official_account');
         if($xml['MsgType'] == 'event'){//关注事件
             if($xml['Event'] == 'subscribe'){ //关注
-                if(isset($xml['EventKey'])){
                     //拉新操作
-                    $agent_code = explode('_',$xml['EventKey'])[1];
-                    $agent_info = DB::connection('mysqls')->table('wechat_user')->where(['uid'=>$agent_code,'openid'=>$xml['FromUserName']])->first();
-                    if(empty($agent_info)){
-                        DB::connection('mysqls')->table('wechat_user')->insert([
-                            'uid'=>$agent_code,
-                            'openid'=>$xml['FromUserName'],
-                            'add_time'=>time()
-                        ]);
-                    }
+                    $openid=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
+            if(empty($openid)){
+                $user = $app->user->get($xml['FromUserName']);
+                $res=DB::connection('mysqls')->table('wechat_openid')->insert([
+                    'openid'=>$user['openid'],
+                    'nickname'=>$this->wechat->filterEmoji($user['nickname']),
+                    'subscribe'=>$user['subscribe'],
+                    'sex'=>$user['sex'],
+                    'country'=>$user['country'],
+                    'province'=>$user['province'],
+                    'city'=>$user['city'],
+                    'headimgurl'=>$user['headimgurl'],
+                    'subscribe_time'=>$user['subscribe_time'],
+                ]);
+            }
+                if(empty($openid)){
+                    $request->session()->put('name',$user['nickname']);
+                }else{
+                    $request->session()->put('name',$openid->nickname);
                 }
-                $message = '余生还长 请多多指教!';
+                $message = '欢迎'.session('name').'登录';
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
             }else{
-                $message = '余生还长 请多多指教!';
+                $message = '欢迎'.session('name').'登录';
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
             }
