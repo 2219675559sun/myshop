@@ -36,7 +36,10 @@ class Kernel extends ConsoleKernel
                     $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$v->openid)->update([
                         'aa'=>0,
                     ]);
-
+                }else{
+                    $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$v->openid)->update([
+                        'is_isset'=>0,
+                    ]);
                 }
             }
             /* $redis=new \Redis;
