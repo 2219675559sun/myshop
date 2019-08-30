@@ -115,7 +115,7 @@ class WechatController extends Controller
                     $message ='签到成功';
                     $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->update([
                         'is_isset'=>'1',
-                        'integral'=>$re->integral+($re->aa+1)*5,
+                        'integral'=>$re->aa==5?$re->integral+5:$re->integral+($re->aa+1)*5,
                         'aa'=>$re->aa==5?'0':$re->aa+1,
                     ]);
 
@@ -128,6 +128,7 @@ class WechatController extends Controller
 
     }
     public function add(){
+
         $app=app('wechat.official_account');
             $info=$app->user->list($nextOpenId = null);
             $openid=$info['data'];
