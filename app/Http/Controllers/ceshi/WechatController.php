@@ -66,15 +66,39 @@ class WechatController extends Controller
 //        echo $xml_str;
 //------------------------------------------------------------------------------------------------------------------
 //        表白
-      /*  $data = file_get_contents("php://input");
+       $data = file_get_contents("php://input");
         //解析XML
         $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
         $xml = (array)$xml; //转化成数组
         $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
 //        写入log日志
         file_put_contents(storage_path('logs/wx_event.log'),$log_str,FILE_APPEND);
+        $app=app('wechat.official_account');
         if($xml['MsgType'] == 'event'){//关注事件
             if($xml['Event'] == 'subscribe'){ //关注
+                //积分------------------------------------------------
+                //拉新操作
+                $openid=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
+                if(empty($openid)){
+                    $user = $app->user->get($xml['FromUserName']);
+                    $res=DB::connection('mysqls')->table('wechat_openid')->insert([
+                        'openid'=>$user['openid'],
+                        'nickname'=>$this->wechat->filterEmoji($user['nickname']),
+                        'subscribe'=>$user['subscribe'],
+                        'sex'=>$user['sex'],
+                        'country'=>$user['country'],
+                        'province'=>$user['province'],
+                        'city'=>$user['city'],
+                        'headimgurl'=>$user['headimgurl'],
+                        'subscribe_time'=>$user['subscribe_time'],
+                    ]);
+                }
+                if(empty($openid)){
+                    $request->session()->put('name',$user['nickname']);
+                }else{
+                    $request->session()->put('name',$openid->nickname);
+                }
+                //-------------------------------------------------------------------------------
                 if(isset($xml['EventKey'])){
                     //拉新操作
                     $agent_code = explode('_',$xml['EventKey'])[1];
@@ -87,7 +111,7 @@ class WechatController extends Controller
                         ]);
                     }
                 }
-                $message = '余生还长 请多多指教!';
+                $message =  '欢迎'.session('name').'关注';
                 $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
                 echo $xml_str;
             }else{
@@ -140,9 +164,33 @@ class WechatController extends Controller
             $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
             echo $xml_str;
 
-        }*/
+        }
+        //----------------------积分-------------------------------------
+        if($xml['EventKey']=='CX'){
+            $da=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
+            $message = '当前积分：'.$da->integral;
+            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+            echo $xml_str;
+        }
+        if($xml['EventKey']=='QD'){
+            $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
 
-      //积分
+            if( $re->is_isset==1){
+                $message ='已签到';
+            }else{
+                $message ='签到成功';
+                $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->update([
+                    'is_isset'=>'1',
+                    'integral'=>$re->aa==5?$re->integral+5:$re->integral+($re->aa+1)*5,
+                    'aa'=>$re->aa==5?'0':$re->aa+1,
+                ]);
+
+            }
+            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
+            echo $xml_str;
+        }
+//---------------------------------------------------------------------------------------------
+    /*  //积分
         $data = file_get_contents("php://input");
         //解析XML
         $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
@@ -202,7 +250,7 @@ class WechatController extends Controller
                 echo $xml_str;
             }
 
-        }
+        }*/
 
     }
 
