@@ -66,7 +66,7 @@ class WechatController extends Controller
 //        echo $xml_str;
 //------------------------------------------------------------------------------------------------------------------
 //        表白
-        $data = file_get_contents("php://input");
+      /*  $data = file_get_contents("php://input");
         //解析XML
         $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
         $xml = (array)$xml; //转化成数组
@@ -140,10 +140,10 @@ class WechatController extends Controller
             $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
             echo $xml_str;
 
-        }
+        }*/
 
       //积分
-       /* $data = file_get_contents("php://input");
+        $data = file_get_contents("php://input");
         //解析XML
         $xml = simplexml_load_string($data,'SimpleXMLElement', LIBXML_NOCDATA);        //将 xml字符串 转换成对象
         $xml = (array)$xml; //转化成数组
@@ -202,7 +202,7 @@ class WechatController extends Controller
                 echo $xml_str;
             }
 
-        }*/
+        }
 
     }
 
