@@ -163,28 +163,30 @@ class WechatController extends Controller
 
         }
         //----------------------积分-------------------------------------
-        if($xml['EventKey']=='CX'){
-            $da=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
-            $message = '当前积分：'.$da->integral;
-            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
-            echo $xml_str;
-        }
-        if($xml['EventKey']=='QD'){
-            $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->first();
-
-            if( $re->is_isset==1){
-                $message ='已签到';
-            }else{
-                $message ='签到成功';
-                $re=DB::connection('mysqls')->table('wechat_openid')->where('openid',$xml['FromUserName'])->update([
-                    'is_isset'=>'1',
-                    'integral'=>$re->aa==5?$re->integral+5:$re->integral+($re->aa+1)*5,
-                    'aa'=>$re->aa==5?'0':$re->aa+1,
-                ]);
-
+        if(isset($xml['EventKey'])) {
+            if ($xml['EventKey'] == 'CX') {
+                $da = DB::connection('mysqls')->table('wechat_openid')->where('openid', $xml['FromUserName'])->first();
+                $message = '当前积分：' . $da->integral;
+                $xml_str = '<xml><ToUserName><![CDATA[' . $xml['FromUserName'] . ']]></ToUserName><FromUserName><![CDATA[' . $xml['ToUserName'] . ']]></FromUserName><CreateTime>' . time() . '</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[' . $message . ']]></Content></xml>';
+                echo $xml_str;
             }
-            $xml_str = '<xml><ToUserName><![CDATA['.$xml['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
-            echo $xml_str;
+            if ($xml['EventKey'] == 'QD') {
+                $re = DB::connection('mysqls')->table('wechat_openid')->where('openid', $xml['FromUserName'])->first();
+
+                if ($re->is_isset == 1) {
+                    $message = '已签到';
+                } else {
+                    $message = '签到成功';
+                    $re = DB::connection('mysqls')->table('wechat_openid')->where('openid', $xml['FromUserName'])->update([
+                        'is_isset' => '1',
+                        'integral' => $re->aa == 5 ? $re->integral + 5 : $re->integral + ($re->aa + 1) * 5,
+                        'aa' => $re->aa == 5 ? '0' : $re->aa + 1,
+                    ]);
+
+                }
+                $xml_str = '<xml><ToUserName><![CDATA[' . $xml['FromUserName'] . ']]></ToUserName><FromUserName><![CDATA[' . $xml['ToUserName'] . ']]></FromUserName><CreateTime>' . time() . '</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[' . $message . ']]></Content></xml>';
+                echo $xml_str;
+            }
         }
 //---------------------------------------------------------------------------------------------
     /*  //积分
