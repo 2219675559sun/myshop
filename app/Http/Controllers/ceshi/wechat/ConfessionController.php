@@ -52,7 +52,7 @@ class ConfessionController extends Controller
         $info=DB::connection('mysqls')->table('menu')->get()->toArray();
         $data=[];
         foreach ($info as $k => $v) {
-            if($v->menu==0){
+            if($v->menu == 0 && $v->type=='click'){
                 //一级菜单
                 $data["button"][] = [
                     "type" => $v->type,
@@ -86,6 +86,28 @@ class ConfessionController extends Controller
         $res=$this->wechat->post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
         dd($res);
     }
+    //删除菜单
+    public function delete_menu(Request $request){
+        $id=$request->all()['id'];
+        $data=DB::connection('mysqls')->table('menu')->where(['menu'=>$id])->select('id')->get()->toArray();
+        if(!empty($data)){
+            foreach($data as $v){
+                DB::connection('mysqls')->beginTransaction();
+                $res=DB::connection('mysqls')->table('menu')->where('id',$id)->delete();
+                $res=DB::connection('mysqls')->table('menu')->where('id',$v->id)->delete();
+                DB::rollBack();
+                DB::connection('mysqls')->commit();
+            }
+        }else{
+            $res=DB::connection('mysqls')->table('menu')->where('id',$id)->delete();
+        }
+        dd($res);
+        if($res){
+            return redirect('menu/add_menu');
+        }
+
+    }
+
     //添加表白内容
     public function log(){
         return view('ceshi.wechat.confession.log');

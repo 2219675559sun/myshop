@@ -273,12 +273,15 @@ Route::get('/menu/delete_menu', 'ceshi\MenuController@delete_menu');
 //登录
 Route::get('/confession/log', 'ceshi\wechat\ConfessionController@log');
 Route::get('/confession/login', 'ceshi\wechat\ConfessionController@login');
-Route::group(['middleware' => ['confession']], function () {
-    //
+//添加菜单
 Route::get('/confession/add_menu', 'ceshi\wechat\ConfessionController@add_menu');
 Route::post('/confession/add_menu_do', 'ceshi\wechat\ConfessionController@add_menu_do');
+//删除菜单
+Route::get('/confession/delete_menu', 'ceshi\wechat\ConfessionController@delete_menu');
 //刷新列表
 Route::get('/confession/menu', 'ceshi\wechat\ConfessionController@menu');
+Route::group(['middleware' => ['confession']], function () {
+    //
 //获取code
 Route::get('/confession/code', 'ceshi\wechat\ConfessionController@code');
 //添加表白消息
@@ -320,6 +323,6 @@ Route::get('/redPacket/red_packet_list', 'ceshi\wechat\RedPacketController@red_p
 
 //----------------------------------------------------------------------------------------
 //积分
-Route::post('/integral/event', 'ceshi\wechat\IntegralController@event');
+Route::get('/integral/add', 'ceshi\WechatController@add');
 
 

@@ -6238,3 +6238,1251 @@ Content-Length: 54
 {"errcode":0,"errmsg":"ok","msgid":961373702887784448}
 --------
 NULL  
+[2019-08-29 10:02:21] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/info?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO&openid=oC0jbwb7N0sRXXHi-O_EJUcahS94&lang=zh_CN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:02:20 GMT
+Content-Length: 460
+
+{"subscribe":1,"openid":"oC0jbwb7N0sRXXHi-O_EJUcahS94","nickname":"清澈如初","sex":1,"language":"zh_CN","city":"张家口","province":"河北","country":"中国","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/5mxuSU5RGhbNI6rTq0XBLSr2ZOITbU1gSvS7hEIRc30zyiaZedEkyLLGviaEJZOU9Jo5vM86S7hqFyTnIMHpg9MH9scqwNhK6U\/132","subscribe_time":1567042546,"remark":"","groupid":0,"tagid_list":[],"subscribe_scene":"ADD_SCENE_QR_CODE","qr_scene":0,"qr_scene_str":""}
+--------
+NULL  
+[2019-08-29 10:05:17] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/info?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO&openid=oC0jbwb7N0sRXXHi-O_EJUcahS94&lang=zh_CN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:05:15 GMT
+Content-Length: 460
+
+{"subscribe":1,"openid":"oC0jbwb7N0sRXXHi-O_EJUcahS94","nickname":"清澈如初","sex":1,"language":"zh_CN","city":"张家口","province":"河北","country":"中国","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/5mxuSU5RGhbNI6rTq0XBLSr2ZOITbU1gSvS7hEIRc30zyiaZedEkyLLGviaEJZOU9Jo5vM86S7hqFyTnIMHpg9MH9scqwNhK6U\/132","subscribe_time":1567042546,"remark":"","groupid":0,"tagid_list":[],"subscribe_scene":"ADD_SCENE_QR_CODE","qr_scene":0,"qr_scene_str":""}
+--------
+NULL  
+[2019-08-29 10:09:01] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/info?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO&openid=oC0jbwb7N0sRXXHi-O_EJUcahS94&lang=zh_CN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:09:00 GMT
+Content-Length: 460
+
+{"subscribe":1,"openid":"oC0jbwb7N0sRXXHi-O_EJUcahS94","nickname":"清澈如初","sex":1,"language":"zh_CN","city":"张家口","province":"河北","country":"中国","headimgurl":"http:\/\/thirdwx.qlogo.cn\/mmopen\/5mxuSU5RGhbNI6rTq0XBLSr2ZOITbU1gSvS7hEIRc30zyiaZedEkyLLGviaEJZOU9Jo5vM86S7hqFyTnIMHpg9MH9scqwNhK6U\/132","subscribe_time":1567042546,"remark":"","groupid":0,"tagid_list":[],"subscribe_scene":"ADD_SCENE_QR_CODE","qr_scene":0,"qr_scene_str":""}
+--------
+NULL  
+[2019-08-29 10:14:43] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/info?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO&openid=FromUser&lang=zh_CN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:14:42 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [N9tMJa08828670]"}
+--------
+NULL  
+[2019-08-29 10:18:26] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/info?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO&openid=FromUser&lang=zh_CN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:18:26 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [TLZjQa0106shc4]"}
+--------
+NULL  
+[2019-08-29 10:20:22] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/info?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO&openid=FromUser&lang=zh_CN HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:20:21 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [ZhYf.a02211337]"}
+--------
+NULL  
+[2019-08-29 10:50:59] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 177
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"rmQ8Gl4RIM20J_imrbxoBs0V_aR0gPpYFR9VWoft41s","url":"https:\/\/baidu.com","data":{"first":{"value":"0"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:50:56 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":963931344856367104}
+--------
+NULL  
+[2019-08-29 10:52:58] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 177
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"rmQ8Gl4RIM20J_imrbxoBs0V_aR0gPpYFR9VWoft41s","url":"https:\/\/baidu.com","data":{"first":{"value":"0"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:52:57 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":963933376744996865}
+--------
+NULL  
+[2019-08-29 10:59:28] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 177
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"rmQ8Gl4RIM20J_imrbxoBs0V_aR0gPpYFR9VWoft41s","url":"https:\/\/baidu.com","data":{"first":{"value":"0"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 02:59:28 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":963939928801492992}
+--------
+NULL  
+[2019-08-29 11:23:04] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_JdmkCFo8Jl3LKUUZwx7E1OsPEWpf70SCp1tTfZvxUhpDOPHOS60u-F3g6ArjTB1gClB7XCdVcAVJOSUkQQA7EHv9V_H1F4k9gG_T8soghc67L42dCHgZhQ9dRwEXcklaEpyvO5JmE2G5cSi9GTKiABAKXO HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 240
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"yRAGXo9BbjNkRLQ7pqAyMxS0BlpZS8KKPVrBpol2QoY","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"当前积分：0"}},"miniprogram":{"appid":"xxxxxxx","pagepath":"pages\/xxx"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Date: Thu, 29 Aug 2019 03:23:04 GMT
+Content-Type: application/json; encoding=utf-8
+Content-Length: 110
+
+{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest hint: [RRlCWa09838593!]"}
+--------
+NULL  
+[2019-08-29 11:23:05] NULL.DEBUG: Retrying with refreshed access token.  
+[2019-08-29 11:23:06] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 240
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"yRAGXo9BbjNkRLQ7pqAyMxS0BlpZS8KKPVrBpol2QoY","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"当前积分：0"}},"miniprogram":{"appid":"xxxxxxx","pagepath":"pages\/xxx"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 03:23:05 GMT
+Content-Length: 65
+
+{"errcode":40013,"errmsg":"invalid appid hint: [GtgDua09858653]"}
+--------
+NULL  
+[2019-08-29 11:24:56] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 240
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"yRAGXo9BbjNkRLQ7pqAyMxS0BlpZS8KKPVrBpol2QoY","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"当前积分：0"}},"miniprogram":{"appid":"xxxxxxx","pagepath":"pages\/xxx"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 03:24:56 GMT
+Content-Length: 65
+
+{"errcode":40013,"errmsg":"invalid appid hint: [DBJ_la00964100]"}
+--------
+NULL  
+[2019-08-29 11:29:10] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 240
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"yRAGXo9BbjNkRLQ7pqAyMxS0BlpZS8KKPVrBpol2QoY","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"当前积分：0"}},"miniprogram":{"appid":"xxxxxxx","pagepath":"pages\/xxx"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 03:29:09 GMT
+Content-Length: 65
+
+{"errcode":40013,"errmsg":"invalid appid hint: [iHh6ha03493935]"}
+--------
+NULL  
+[2019-08-29 11:29:34] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 240
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"yRAGXo9BbjNkRLQ7pqAyMxS0BlpZS8KKPVrBpol2QoY","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"当前积分：0"}},"miniprogram":{"appid":"xxxxxxx","pagepath":"pages\/xxx"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 03:29:33 GMT
+Content-Length: 65
+
+{"errcode":40013,"errmsg":"invalid appid hint: [F_e1ea03733950]"}
+--------
+NULL  
+[2019-08-29 11:30:21] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 240
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"yRAGXo9BbjNkRLQ7pqAyMxS0BlpZS8KKPVrBpol2QoY","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"当前积分：0"}},"miniprogram":{"appid":"xxxxxxx","pagepath":"pages\/xxx"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 03:30:20 GMT
+Content-Length: 65
+
+{"errcode":40013,"errmsg":"invalid appid hint: [mLH0cA04203933]"}
+--------
+NULL  
+[2019-08-29 12:22:40] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:22:39 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:23:31] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:23:30 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:26:06] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:05 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:26:07] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwf6hokeWLPEb6bRF-WNPGnM"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:06 GMT
+Content-Length: 94
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [LD607663933]"}
+--------
+NULL  
+[2019-08-29 12:26:07] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwZ7k0h3rJfDeyjXmCbpXSow"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:06 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [LcrE7a07664123]"}
+--------
+NULL  
+[2019-08-29 12:26:07] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwaIvZNO2_uZMH-rw-bcRzPA"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:06 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [ngtAcA07664963]"}
+--------
+NULL  
+[2019-08-29 12:26:09] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwfTManpCOxwWkbEP1TPQxCA"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:06 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [i68Iia07663948]"}
+--------
+NULL  
+[2019-08-29 12:26:09] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbweAEtwLl5CBZrluOa3VKFrg"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:08 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [CR8OWa07684100]"}
+--------
+NULL  
+[2019-08-29 12:26:09] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwb7N0sRXXHi-O_EJUcahS94"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:08 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [HiCrgA07683116]"}
+--------
+NULL  
+[2019-08-29 12:26:09] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwUbm0r4dqL7ronVl-YzAYlc"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:08 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [YnTqBA07684127]"}
+--------
+NULL  
+[2019-08-29 12:26:09] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwU-uDWXgjOtrcCf_D2LARHs"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:09 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [q1PsGa07693951]"}
+--------
+NULL  
+[2019-08-29 12:26:10] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 184
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":["oC0jbwfCNDpy-oVqSPR5i2BarJNQ"],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:09 GMT
+Content-Length: 97
+
+{"errcode":40130,"errmsg":"invalid openid list size, at least two openid hint: [xM47EA07693950]"}
+--------
+NULL  
+[2019-08-29 12:26:59] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:26:58 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:27:32] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:27:31 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:27:34] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/mass/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 434
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":[["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]],"msgtype":"text","text":{"content":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:27:32 GMT
+Content-Length: 72
+
+{"errcode":0,"errmsg":"send job submission success","msg_id":3147483650}
+--------
+NULL  
+[2019-08-29 12:29:29] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:28 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:29:30] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:29 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [x2F0tA09694116]"}
+--------
+NULL  
+[2019-08-29 12:29:30] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:29 GMT
+Content-Length: 65
+
+{"errcode":40003,"errmsg":"invalid openid hint: [jYYB709694100]"}
+--------
+NULL  
+[2019-08-29 12:29:30] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:29 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [Ah83xa09694113]"}
+--------
+NULL  
+[2019-08-29 12:29:30] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:29 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [l1PtQA09694119]"}
+--------
+NULL  
+[2019-08-29 12:29:30] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:29 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [Gl9nEA09694126]"}
+--------
+NULL  
+[2019-08-29 12:29:30] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:30 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [kEDqia0970shc1]"}
+--------
+NULL  
+[2019-08-29 12:29:30] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:30 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [OOL.OA09708641]"}
+--------
+NULL  
+[2019-08-29 12:29:31] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:30 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [1BToEa09703055]"}
+--------
+NULL  
+[2019-08-29 12:29:31] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:29:30 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [EpSpaA09703936]"}
+--------
+NULL  
+[2019-08-29 12:30:14] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:13 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:30:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:14 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [CoEESa00143945]"}
+--------
+NULL  
+[2019-08-29 12:30:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:14 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [qffmba00144124]"}
+--------
+NULL  
+[2019-08-29 12:30:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:14 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [XjX8MA00144123]"}
+--------
+NULL  
+[2019-08-29 12:30:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:14 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [nagpVa00148648]"}
+--------
+NULL  
+[2019-08-29 12:30:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:14 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [zm7rmA0014shc1]"}
+--------
+NULL  
+[2019-08-29 12:30:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:14 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [qGfPTa00143955]"}
+--------
+NULL  
+[2019-08-29 12:30:15] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:15 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [zi2GHa00154128]"}
+--------
+NULL  
+[2019-08-29 12:30:16] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:15 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [BId3aa00158648]"}
+--------
+NULL  
+[2019-08-29 12:30:16] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 259
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"$v","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:15 GMT
+Content-Length: 66
+
+{"errcode":40003,"errmsg":"invalid openid hint: [JX.vBA00158648]"}
+--------
+NULL  
+[2019-08-29 12:30:35] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:34 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:30:36] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwf6hokeWLPEb6bRF-WNPGnM","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:35 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031654572507137}
+--------
+NULL  
+[2019-08-29 12:30:36] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwZ7k0h3rJfDeyjXmCbpXSow","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:35 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031657307176961}
+--------
+NULL  
+[2019-08-29 12:30:36] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwaIvZNO2_uZMH-rw-bcRzPA","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:35 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031661568655361}
+--------
+NULL  
+[2019-08-29 12:30:36] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfTManpCOxwWkbEP1TPQxCA","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:35 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031664538222592}
+--------
+NULL  
+[2019-08-29 12:30:36] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbweAEtwLl5CBZrluOa3VKFrg","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:36 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031668514373632}
+--------
+NULL  
+[2019-08-29 12:30:37] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:36 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031671785963523}
+--------
+NULL  
+[2019-08-29 12:30:37] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwUbm0r4dqL7ronVl-YzAYlc","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:36 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031674772307969}
+--------
+NULL  
+[2019-08-29 12:30:37] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwU-uDWXgjOtrcCf_D2LARHs","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:36 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031677943136256}
+--------
+NULL  
+[2019-08-29 12:30:37] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:30:36 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964031681315340288}
+--------
+NULL  
+[2019-08-29 12:43:58] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_isWNA7jKPl45C7RpeOaST25oyYtbqQayzwGnGFrkcSuCOiTha07TKcVz3uyY-7gbQvXc4TjZtrH35qo2IxxBwyvIv5jfojoyjc98HEVV9xqxUvc9sM0AwPjZeZtqaFM8RqWMH-P8pq9J2QBEPSNfAEAYBW HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Date: Thu, 29 Aug 2019 04:43:57 GMT
+Content-Type: application/json; encoding=utf-8
+Content-Length: 110
+
+{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest hint: [UFc5Ta08377132!]"}
+--------
+NULL  
+[2019-08-29 12:43:59] NULL.DEBUG: Retrying with refreshed access token.  
+[2019-08-29 12:43:59] NULL.DEBUG: >>>>>>>>
+GET /cgi-bin/user/get?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:43:58 GMT
+Content-Length: 365
+
+{"total":9,"count":9,"data":{"openid":["oC0jbwf6hokeWLPEb6bRF-WNPGnM","oC0jbwZ7k0h3rJfDeyjXmCbpXSow","oC0jbwaIvZNO2_uZMH-rw-bcRzPA","oC0jbwfTManpCOxwWkbEP1TPQxCA","oC0jbweAEtwLl5CBZrluOa3VKFrg","oC0jbwb7N0sRXXHi-O_EJUcahS94","oC0jbwUbm0r4dqL7ronVl-YzAYlc","oC0jbwU-uDWXgjOtrcCf_D2LARHs","oC0jbwfCNDpy-oVqSPR5i2BarJNQ"]},"next_openid":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ"}
+--------
+NULL  
+[2019-08-29 12:44:00] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwf6hokeWLPEb6bRF-WNPGnM","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:43:59 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045144645353472}
+--------
+NULL  
+[2019-08-29 12:44:00] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwZ7k0h3rJfDeyjXmCbpXSow","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:43:59 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045147229028354}
+--------
+NULL  
+[2019-08-29 12:44:00] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwaIvZNO2_uZMH-rw-bcRzPA","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:43:59 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045150685200384}
+--------
+NULL  
+[2019-08-29 12:44:00] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfTManpCOxwWkbEP1TPQxCA","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:43:59 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045153486995457}
+--------
+NULL  
+[2019-08-29 12:44:00] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbweAEtwLl5CBZrluOa3VKFrg","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:44:00 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045157496700929}
+--------
+NULL  
+[2019-08-29 12:44:02] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwb7N0sRXXHi-O_EJUcahS94","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:44:00 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045160617295872}
+--------
+NULL  
+[2019-08-29 12:44:02] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwUbm0r4dqL7ronVl-YzAYlc","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:44:02 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045189272780800}
+--------
+NULL  
+[2019-08-29 12:44:03] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwU-uDWXgjOtrcCf_D2LARHs","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:44:02 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045194591092739}
+--------
+NULL  
+[2019-08-29 12:44:03] NULL.DEBUG: >>>>>>>>
+POST /cgi-bin/message/template/send?access_token=24_-15gIBZfE37sY9Wd6oqdggvQ8sIvkDVcMdJJNZspxAV2bukOMfGYixyfU1faC4VSI1HTXZr8-98p7eJY27A5vh_KV59deC_FE90_ldaEQnK28ymgUMXitNZDFUHtA3diLH8nH3qiG4QdljguSHLjACAYNR HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 285
+User-Agent: GuzzleHttp/6.3.3 curl/7.64.0 PHP/7.3.6
+Content-Type: application/json
+
+{"touser":"oC0jbwfCNDpy-oVqSPR5i2BarJNQ","template_id":"b1Vy0a_WIGRNFqrWW2hFQLS9dgGHvplswhC21osRp5E","url":"https:\/\/easywechat.org","data":{"keyword":{"value":"尊敬的用户您好，目前公司开展签到送积分兑换活动，详情进入公众号查看。"}},"miniprogram":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; encoding=utf-8
+Date: Thu, 29 Aug 2019 04:44:02 GMT
+Content-Length: 54
+
+{"errcode":0,"errmsg":"ok","msgid":964045197980073984}
+--------
+NULL  

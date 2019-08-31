@@ -18,15 +18,17 @@ class MenuController extends Controller
         $info=[];
         foreach($data as $k=>$v){
             if($v->one_name!=''){
+                //一级菜单
                $info[]=$v;
+               if($v->two_name!=''){
                foreach($data as $val){
                    if($v->id==$val->menu){
                        $info[]=$val;
                    }
                }
+               }
             }
         }
-//        dd($info);
         return view('ceshi.weixin.menu.add_menu',['data'=>$data,'info'=>$info]);
     }
     public function add_menu_do(Request $request){
@@ -112,11 +114,14 @@ class MenuController extends Controller
                    ];
                }
            }
+
            if(!empty($sub_button)){
            $data['button'][]=['name'=>$v->one_name,'sub_button'=>$sub_button];
            }
         }
         }
+        ;
+        dd('请到：   '.'http://www.myshop.com/confession/add_menu'.'    添加菜单');
         $res=$this->wechat->post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
         dd($res);
 
@@ -140,9 +145,11 @@ class MenuController extends Controller
         }else{
             $res=DB::connection('mysqls')->table('menu')->where('id',$id)->delete();
         }
+        dd($res);
             if($res){
                 return redirect('menu/add_menu');
             }
+
     }
 //老师接口
     public function reload_menu()

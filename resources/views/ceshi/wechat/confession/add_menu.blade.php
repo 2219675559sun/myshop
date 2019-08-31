@@ -52,7 +52,7 @@
                 <td>{{$v->url}}</td>
                 <td>{{date('Y-m-d H:i:s',$v->add_time)}}</td>
                 <td>
-                    <a href="">删除</a>
+                    <a href="{{url('confession/delete_menu')}}?id={{$v->id}}">删除</a>
                 </td>
             </tr>
                 @endforeach
