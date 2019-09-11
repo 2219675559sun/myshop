@@ -68,7 +68,7 @@ Route::group(['middleware' => ['admin']], function () {
 Route::get('/index/logadd', 'index\IndexController@logadd');
 Route::get('/index/logadd_do', 'index\IndexController@logadd_do');
 //模板展示页面
-Route::get('/index', 'index\IndexController@index');
+Route::get('', 'index\IndexController@index');
 //模板退出登录
 Route::get('/index/sessionout', 'index\IndexController@sessionout');
 //模板详情页
