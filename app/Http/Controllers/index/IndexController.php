@@ -29,7 +29,7 @@ class IndexController extends Controller
     			$request->session()->put('name',$data['name']);
                 $request->session()->put('id',$res['id']);
 
-                return redirect('index');
+                return redirect('/');
     		}else{
     			return redirect('index/log');
     		}
